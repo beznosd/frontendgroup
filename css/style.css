@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+    color: aliceblue
+}
+
+
+h3 {
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.avatar{
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial,sans-serif;
+}
+
