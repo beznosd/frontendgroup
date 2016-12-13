@@ -1,6 +1,12 @@
-# frontendgroup
-Front-end Group Brain Academy Zaporizhya <br>
-Front-end Group Brain Academy Zaporizhya <br>
-Front-end Group Brain Academy Zaporizhya <br>
-
-changed
+# Примеры с урока в новой папке html
+## Домашнее задание:
+1. Создать страничку о себе, которая включает:
+..* заголовки (h1 ...)
+..* параграфы (p)
+..* тэги (div)
+..* списки (ul, ol)
+..* картиноки (img)
+..* линии(hr)
+..* гиперссылку на страничку с контактами
+2. Страничка с контактами:
+..* гиперссылка на главную
