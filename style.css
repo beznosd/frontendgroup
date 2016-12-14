@@ -1,0 +1,39 @@
+* {
+	background-color: rgba(89, 211, 99, 0.8);
+	margin: 10px;
+}
+.big {
+	max-width: 450px;
+}
+.prefoot {
+	color: blue;
+}
+.foot {
+	font-family: verdana;
+}
+.name {
+	text-align: center;;
+	font-size: 35px;
+	font-weight: bold;
+}
+.foto {
+	text-align: center;
+}
+.tel:hover {
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	color: yellow;
+}
+a:active {
+	color: black;
+}
