@@ -16,30 +16,10 @@ html, body{
     height: 100%;
 }
 
-.conteiner{
-    flex: 1 0 auto;
-}
-
 h1 {
     margin: 10px;
     text-align: center;
     font-size: 26px;
-}
-
-h3{
-    text-align: center;
-    padding: 10px;
-}
-
-ul{
-    margin: 5px;
-    list-style: circle;
-    
-}
-
-h4{
-    margin: 5px;
-    font-size: 16px;
 }
 
 .avatar{
@@ -48,6 +28,13 @@ h4{
 
 img {
     width: 150px;
+}
+
+.conteiner {
+    flex: 1 0 auto;
+    text-align: center;
+    font-size: 18px;
+    min-height: calc(100vh - 245px);
 }
 
 .footer{
