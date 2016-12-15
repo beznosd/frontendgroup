@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+    <body>
+        <form action="server.php" method="post">
+            <h1>All form elements</h1>
+
+            <br/>
+
+            <div>
+                <label for="name">Your Name</label>
+                <input id="name" type="text" name="pickachu" placeholder="Your Full"/>
+            </div>
+
+            <br/>
+        
+            <div>
+                <label for="email">Your Email</label>
+                <input id="email" type="email" name="email" placeholder="Your Email" disabled />
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="read">Read only</label>
+                <input id="read" type="email" name="email" value="You can just read this" readonly />
+            </div>
+
+            <br/>
+
+            <br/>
+        
+            <label>
+                <span>Message :</span>
+                <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+            </label>
+
+            <br/><br/>
+         
+            <div>Choose something:</div>
+
+            <select name="selection">
+                <option value="Job Inquiry">Job Inquiry</option>
+                <option value="General Question" selected>General Question</option>
+                <option value="Something else">Not linked values</option>
+                <option value="Something else">Somethin else</option>
+            </select>
+                
+            <br/><br/>
+
+             <select name="selection" multiple>
+                <option value="Job Inquiry">Job Inquiry</option>
+                <option value="General Question">General Question</option>
+                <option value="Something else">Not linked values</option>
+                <option value="Something else">Somethin else</option>
+            </select>
+                
+            <br/><br/>
+
+            <div>Сосотояние воды в стакане</div>
+            <label>
+                <input name="state" type="radio">
+                Жидкое
+            </label>
+            <label>
+                <input name="state" type="radio">
+                Твердое
+            </label>
+            <label>
+                <input name="state" type="radio">
+                Газообразное
+            </label>
+
+            <br/><br/>
+
+            <!-- <input type="submit" value="Submit this form" /> -->
+            <button>Submit this form</button>
+    </form>
+</body>
+</html>
