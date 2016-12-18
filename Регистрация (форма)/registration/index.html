@@ -1,0 +1,69 @@
+<!Doctype HTML>
+<html>
+<head>
+    <title>Форма регистрации</title>
+	<meta charset="utf-8">
+</head>
+<body>
+    <form action="#">
+	    <fieldset>
+	        <p>
+	            <label>Имя</label>
+		        <input type="text" name="name" placeholder="Иван" required>
+			    <span>&#10003;</span>
+		    </p>
+		    <p>
+	            <label>Фамилия</label>
+		        <input type="text" name="last_name" placeholder="Иванов" required>
+			    <span>&#10003;</span>
+		    </p>
+		    <p>
+	            <label>Город</label>
+		        <input type="text" name="city" placeholder="Запорожье" required>
+			    <span>&#10003;</span>
+		    </p>
+            <p>
+                <input type="radio" name="group1" value="a1" checked>В браке<br>
+                <input type="radio" name="group1" value="a2" checked>Холост<br>
+            </p>
+            <p>
+                <label>Возраст</label>
+                <input type="text" name="age" placeholder="21" required>
+                <span>&#10003;</span>
+            </p>
+			<br>
+		    <p>
+	            <label>Эл.почта</label>
+		        <input type="email" name="email" placeholder="ivanov@gmail.com" required>
+			    <span>&#10003;</span>
+		    </p>
+		    <p>
+	            <label>Пароль</label>
+		        <input type="password" name="password" placeholder="******" required>
+			    <span></span>
+		    </p>
+		    <p>
+	            <label>Повторите</label>
+		        <input type="password" name="password" placeholder="******" required>
+			    <span>&#10003;</span>
+		    </p>
+            <br>
+            <p>
+                <input type="checkbox" name="option1" value="a1" checked>Кредит на 10 000 грн.<br>
+                <input type="checkbox" name="option1" value="a2" checked>Кредит на 25 000 грн.<br>
+                <input type="checkbox" name="option1" value="a2" checked>Кредит на 50 000 грн.<br>
+            </p>
+			<br>
+            <p>Введите число с картинки</p>
+			<p>
+				<img src="number.jpg" alt="" width="80" height="30px" class="img">
+				<input type="number" name="text" placeholder="67829" required class="num">
+				<span class="incorrect">&#10006; Неправильное число</span>
+			</p>
+		</fieldset>
+		<div>
+		    <button type="submit" class="sub">Регистрация</button>
+		</div>
+	</form>
+</body>
+</html>
