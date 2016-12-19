@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Main page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<title>Регистрация</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<img src="https://git-scm.com/images/logo@2x.png" alt="I don't want to upload image">
-	<hr>
-	<h1>Attention!</h1>
-	<h3>It's a very impotant information</h3>
-	<h5>You have to remember it.</h5>
-	<div class="big"><strong><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nihil iure error, repellat dolorum eius corrupti totam iste eum, reiciendis laborum repellendus saepe magnam distinctio cum ullam incidunt delectus dicta</em></strong></div>
-	<div>Anyway, you won't read it =)</div>
-	<hr>
-	<ol type="I">
-		<li>First line</li>
-		<li>Second line</li>
-		<li>Third line</li>
-		<li>Fourth line</li>
-		<li>Sixth line</li>
-	</ol>
-	<hr>
-	<div class="prefoot"><i>Maybe, you saw that I missed 'Fifth line' =)</i></div>
-	<div class="foot">If you want so, you can visit<a href="contacts.html">my contacts</a>. But I hope you won't do that.</div>
+	<img class="privat" src="https://privatbank.ua/img/logo.png?v=2828" alt="Приват">
+	
+	<h1>Форма регистрации в системе Приват24</h1><hr><br>
 
+	<div class="form">
+		<form action="server.php" method="post">
+			
+			 <input type="text" name="fname" placeholder="Ваше имя" maxlength="15"><br>
+			
+			 <input type="text" name="lname" placeholder="Ваша фамилия" maxlength="15"> <br>
+
+			 <div class="check"> Семейное положение <br>
+			 	<input type="radio" name="status" value="Занято">Замужем\Женат <br>
+			 	<input type="radio" name="status" value="Свободно">Холост <br>
+			 	<input type="radio" name="status" value="Женщина">В активном поиске <br>
+			 	<input type="radio" name="status" value="Чудо">В надежде  на чудо =)<br><br>
+			 </div> 
+
+			 Дата рождения: <br> <input id="date" type="date" name="bday" max="1998-01-01"> <br>
+			 
+			 <div class="check"> Пол <br>
+			 	<input type="radio" name="gender" value="Мужчина">Мужчина <br>
+			 	<input type="radio" name="gender" value="Женщина">Женщина <br>
+			 	<input type="radio" name="gender" value="Другое">Другое <br>
+			 </div> 
+			 
+			 <input type="text" name="adres" placeholder="Ваш адрес"> <br>	
+
+			 <input type="email" name="mail" placeholder="Электронная почта" maxlength="25"><br>
+			 
+			 <input type="tel" name="phone" placeholder="Номер мобильного телефона" value="+380" maxlength="13"><br>
+			
+			 <input type="password" name="pass" placeholder="Придумайте пароль" required><br>
+			
+			 <input type="password" name="pass2" placeholder="Повторите пароль" required><br>
+
+			 <div> Как вы о нас узнали? <br>
+			 	 <input type="checkbox" name="ques" value="data"> Телевизор <br>
+			 	 <input type="checkbox" name="ques" value="data"> Интернет <br>
+			 	 <input type="checkbox" name="ques" value="data" selected> Так-то и так все знают =) 
+			 </div><br> <br><hr>
+		
+			 <div id="data">
+			 	<input  type="checkbox" name="data" value="data" required>Я согласен на использование моих персональных данных<br>
+			 	<a href="#"> Прочитать соглашение</a><br><br>	
+			 	<input  type="checkbox" name="age" value="age" required>Я подтверждаю, что мне исполнилось 18 лет<br>
+			</div>
+
+			 <input class="button" type="submit" name="reg" value="Регистрация" >
+		</form>
+	</div>
+	
 </body>
 </html>

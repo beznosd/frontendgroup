@@ -1,39 +1,58 @@
 * {
-	background-color: rgba(89, 211, 99, 0.8);
-	margin: 10px;
+	background-color: rgb(210, 210, 210);
+	margin: 0;
+	padding: 0;
 }
-.big {
-	max-width: 450px;
+.privat {
+	width: 250px;
+	margin: 10px 10px;
 }
-.prefoot {
-	color: blue;
-}
-.foot {
-	font-family: verdana;
-}
-.name {
-	text-align: center;;
-	font-size: 35px;
-	font-weight: bold;
-}
-.foto {
+h1 {
+	font-family: sans-serif;
+	font-weight: strong;
 	text-align: center;
+	font-size: 250%;
 }
-.tel:hover {
-	color: white;
+
+hr {
+	border-color: rgb(0, 160, 0);
+}
+.form {
+	text-align: left;
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: 22px;
+	margin: 2% 35%;
+}
+input[type=text], [type=password], [type=email], [type=tel], [type=date], [type=submit] {
+	width: 100%;
+	border-radius: 5px;
+	border-color: black;
+	padding: 10px;
+	margin: 15px auto;
+	font-size: 20px;
+	font-family: arial;
+}
+input:focus {
+   	border: 3px solid black;
+}
+input:active {
+	background-color: rgb(0, 160, 0);
+}
+#data {
+	text-align: center;
+	color: rgb(0, 160, 0);
+	width: auto;
 }
 a {
 	text-decoration: none;
 }
-a:link {
-	color: blue;
-}
-a:visited {
-	color: orange;
-}
 a:hover {
-	color: yellow;
+	color: rgb(0, 160, 0);
 }
-a:active {
-	color: black;
+.button:hover {
+	background-color: rgb(0, 160, 0);
+}
+.button {
+	cursor: pointer;
 }
