@@ -1,0 +1,22 @@
+*{
+	background-color: blue;
+}
+h1{
+	margin: 0px;
+    padding: 0px;
+	text-align: center;
+	color: aliceblue;	
+}
+html, body {
+    height: 100%;
+   }
+.avatar{
+	text-align: center;
+	
+}
+
+ul{
+	text-align: center;
+	color: white;
+
+}
