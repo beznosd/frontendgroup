@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<div class="header">			
+			<div class="registration">				
+				<h1>Registration</h1>
+			</div>
+		</div>
+		<hr>
+
+		<div class="conteiner">
+			
+			<fieldset class="cont">
+				
+				<legend>Contacts</legend>
+					
+					<p class="name">
+						<label for="name">Name:</label>
+							<input type="text" name="name" placeholder="Enter Your Name">
+					</p>
+
+					<p>
+						<label for="surname">Surname:</label>
+						<input type="text" name="name" placeholder="Enter Your Surname">
+					</p>
+
+					<p>
+						<label for="email">email:</label>
+						<input type="email" name="email" placeholder="Enter Your email">
+					</p>
+
+					<p>
+						<label for="tel">Phone:</label>
+						<input type="tel" name="tel" placeholder="Enter Your Phone Number" pattern="\+3\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}">
+					</p>
+
+					<p>
+						<label for="password">Password:</label>
+						<input type="password" name="password" placeholder="Password">
+					</p>
+
+					<p>
+						<label for="password">Confirm Password:</label>
+						<input type="password" name="password" placeholder="Password">
+					</p>
+
+			</fieldset>
+
+			<fieldset>
+
+				<legend>Personal Data</legend>
+
+				<div class="country">
+					<label for="country">Your country:</label>
+					<select name="country">
+						<option value="Ukraine" selected>Ukraine</option>
+						<option>Russia</option>
+						<option>USA</option>
+					</select>
+				</div>
+
+				<br>
+
+				<div class="lang">
+					<label for="lang">Choose language:</label>
+					<select name="lang">
+						<option value="english" selected>english</option>
+						<option>ukrainian</option>
+						<option>russian</option>
+					</select>
+				</div>
+
+				<br>
+
+				<div class="gend">
+					<label>Choose gender:</label>
+						<input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender" value="female">Female
+				</div>
+
+				<br>
+
+				<div class="birthday">
+					<form>
+						Date of Birth: <input type="date" name="calendar">
+					</form>
+				</div>
+
+				<br>
+
+				<div class="relate">
+					<label>Close relatives:</label>
+						<input type="checkbox" name="check">Wife/Husband
+						<input type="checkbox" name="check">Mother
+						<input type="checkbox" name="check">Father
+						<input type="checkbox" name="check">Sister
+						<input type="checkbox" name="check">Brother
+						<input type="checkbox" name="check">Son
+						<input type="checkbox" name="check">Daughter
+				</div>
+
+				<br>
+
+				<div class="feedback">
+					<label for="your_message">Feedback on the registration page:</label>
+		   			<textarea name="your_message" placeholder="Your comment"></textarea>
+		   	</div>
+
+			</fieldset>
+
+			<button type="button" onclick="alert('Welcome in our system!')">Registrate</button>
+
+		</div>
+
+	</div>
+	
+</body>
+</html>

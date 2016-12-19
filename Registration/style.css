@@ -1,0 +1,62 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #333;
+	color: #2C81B5;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
+
+label{
+	display: inline-block;
+	width: 90px;
+}
+
+fieldset{
+	border-radius: 5px;
+	height: 100%;
+}
+
+.cont input{
+	border-radius: 3px;
+	width: 200px;
+	height: 22px;
+}
+
+.lang select{
+	border-radius: 3px;
+	width: 100px;
+	height: 22px;
+}
+
+.country select{
+	border-radius: 3px;
+	width: 100px;
+	height: 22px;
+}
+
+.birthday input{
+	border-radius: 3px;
+	width: 150px;
+}
+
+.feedback textarea{
+	border-radius: 3px;
+	width: 300px;
+	height: 75px;
+}
+
+h1{
+	margin: 15px;
+	color: #2C81B5;
+}
+
+button{
+	margin: 25px;
+	background-color: #8BD237;
+	border: 0px;
+	border-radius: 10px;
+	width: 150px;
+	font-size: 22px;
+}
+
