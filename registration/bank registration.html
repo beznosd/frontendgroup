@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank registration</title>
+  </head>
+  <body>
+    <header>
+      <img id="image" src="logotip.jpg" alt="logo" width="350" height="130">
+    </header>
+  <br> 
+    <h1>Registration in Safra National Bank</h1>
+    <br>
+     <form action="server.php" method="POST">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" ="name" type="text" name="name" placeholder="Your full name">
+      </div>
+    <br>
+      <div>
+        <label for="date">Create a password</label>
+        <input id="password" type="password" name="date" placeholder="password">
+      </div>
+    <br>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Your email">
+      </div>
+    <br>
+        <label for="phone">Telephone</label>
+        <input id="phone" type="text" name="email" placeholder="Your phone">
+    <br>    
+      </div>
+    <br>
+        Gender<select id="gender">
+        <option disabled selected value>Gender</option>
+        <option>male</option>
+        <option>female</option>
+        </select>
+    <br>
+    <br>
+        <button id="button" type="submit">registration</button>
+        <button id="button" type="reset">reset</button>
+     </form>
+  </body>
+</html>

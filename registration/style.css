@@ -1,0 +1,49 @@
+header {
+	background-image:url(good.gif);
+	margin-top: 10px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border: solid 3px #001a33;
+	background-size: cover;
+	padding-left: 1200px;
+}
+
+h1  {
+	text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: tahoma;
+ }
+
+body {
+	background-image:url(picture.jpg);
+	font-size: 20px;
+	text-align: center;
+	font-family: tahoma;
+	background-size: 100%;
+	color: white;
+} 
+
+#name,#email,#password,#phone,#gender,#button{
+	font-size: 20px;
+	text-align:center;
+	background: #e6f3ff;
+	border-radius: 10px;
+	border: solid 2px #001a33;
+}
+
+#password{
+	    margin-right: 120px;
+}
+
+#phone{
+	    margin-right: 20px;
+}
+
+#image {
+	margin-top: 40px;
+	border: solid 15px #001a33;
+	border-radius: 25px;
+}
