@@ -1,0 +1,15 @@
+body{
+padding: 0;
+margin: 0;
+background: #f8f7e5 url(bank.jpg) no-repeat center top;
+width: 100%;
+display: table;
+}
+	.ramka { 
+	background: #cecac4; 
+	border: 2px solid #203534; 
+	padding: 50px;
+	margin-left:500px; 
+	margin-right:500px;
+	font: 12pt;
+	color: #2c2c2c;
