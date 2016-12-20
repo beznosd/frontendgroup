@@ -1,0 +1,40 @@
+body {
+    background-image: url("images/bg.png");
+}
+.h1style {
+	font-family: Savoye LET;
+	letter-spacing: inherit;
+	font-size: 45px;
+	color: #85292c;
+	text-align: center;
+}
+
+.forms {
+	clear: both; 
+	text-align: right;
+}
+label {
+	float:left;
+	padding-right: 50px;
+}
+.mainforms {
+	left: 43%;
+	top: 10%;
+	position: fixed;
+
+}
+.married {
+
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.notmarried {
+    margin-left: 12px;
+}
+input {
+	color: gray;
+	height: 10px;
+}
+select {
+
+}
