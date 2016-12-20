@@ -18,18 +18,25 @@
 			 <input type="text" name="lname" placeholder="Ваша фамилия" maxlength="15"> <br>
 
 			 <div class="check"> Семейное положение <br>
-			 	<input type="radio" name="status" value="Занято">Замужем\Женат <br>
-			 	<input type="radio" name="status" value="Свободно">Холост <br>
-			 	<input type="radio" name="status" value="Женщина">В активном поиске <br>
-			 	<input type="radio" name="status" value="Чудо">В надежде  на чудо =)<br><br>
+			 	<input type="radio" name="status" id="busy">
+			 		<label for="busy">Замужем\Женат</label> <br>
+			 	<input type="radio" name="status" id="free">
+			 		<label for="free">Холост</label> <br>
+			 	<input type="radio" name="status" id="look">
+			 		<label for="look">В активном поиске</label> <br>
+			 	<input type="radio" name="status" id="hope">
+			 		<label for="hope">В надежде  на чудо =)</label> <br><br>
 			 </div> 
 
 			 Дата рождения: <br> <input id="date" type="date" name="bday" max="1998-01-01"> <br>
 			 
 			 <div class="check"> Пол <br>
-			 	<input type="radio" name="gender" value="Мужчина">Мужчина <br>
-			 	<input type="radio" name="gender" value="Женщина">Женщина <br>
-			 	<input type="radio" name="gender" value="Другое">Другое <br>
+			 	<input type="radio" name="status" id="man">
+			 		<label for="busy">Мужчина</label> <br>
+			 	<input type="radio" name="status" id="woman">
+			 		<label for="woman">Женщина</label> <br>
+			 	<input type="radio" name="status" id="else">
+			 		<label for="else">Другое</label> <br><br>			 
 			 </div> 
 			 
 			 <input type="text" name="adres" placeholder="Ваш адрес"> <br>	
@@ -43,10 +50,13 @@
 			 <input type="password" name="pass2" placeholder="Повторите пароль" required><br>
 
 			 <div> Как вы о нас узнали? <br>
-			 	 <input type="checkbox" name="ques" value="data"> Телевизор <br>
-			 	 <input type="checkbox" name="ques" value="data"> Интернет <br>
-			 	 <input type="checkbox" name="ques" value="data" selected> Так-то и так все знают =) 
-			 </div><br> <br><hr>
+			 	<input type="checkbox" name="ques" id="tel">
+			 		<label for="tel">Телевизор</label> <br>
+			 	<input type="checkbox" name="ques" id="net">
+			 		<label for="net">Интернет</label> <br>
+			 	<input type="checkbox" name="ques" id="know">
+			 		<label for="know">Так-то и так все знают =) </label> <br><br><br><hr>
+			 </div>
 		
 			 <div id="data">
 			 	<input  type="checkbox" name="data" value="data" required>Я согласен на использование моих персональных данных<br>
