@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Пройдите регистрацию</title>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="fon">
+	
+<div class="man">
+	<div class="main">
+	
+		
+			<h1 align="center">Пройдите регистрацию</h1>
+			<form action="" method="post">
+				
+                 <label for="surname">Фамилия :</label> 
+				<p><input required maxlength="30" name="surname" size="30px" type="text" value="Иванов" id="surname"></p>
+				<label for="name">Ваше имя :</label>
+				<p><input  maxlength="30" name="name" size="30px" type="text" value="Иван" id="name" required ></p>
+				<label for="oname">Отчество :</label>
+				<p><input required maxlength="30" name="name2" size="30px" type="text" value="Иванович" id="oname"></p>
+				<label for="namep">Укажите Вашу дату рождения :</label>
+				<p style="font-size:18px; color: #55b194;" id="namep"></p>
+				
+				<select required name="DR"></p>
+					<option value="1980">
+						1980
+					</option>
+					<option value="1981">
+						1981
+					</option>
+					<option value="1982">
+						1982
+					</option>
+					<option value="1983">
+						1983
+					</option>
+					<option value="1984">
+						1984
+					</option>
+					<option value="1985">
+						1985
+					</option>
+					<option value="1986">
+						1986
+					</option>
+					<option value="1987">
+						1987
+					</option>
+					<option value="1988">
+						1988
+					</option>
+					<option value="1989">
+						1989
+					</option>
+					<option value="1990">
+						1990
+					</option>
+				</select></p>
+				<label for="city">Город :</label>
+				     <p><input maxlength="30" name="city" size="30px" type="text" value="Москва" id="city"></p>
+				
+				<label for="email">Ваша почта :</label>
+				    
+			<p><input maxlength="30" name="email" size="30px" type="text" value="blablabla@yandex.ru" placeholder="blablabla@yandex.ru" id="email"></p>
+				
+				
+				<label for="sex">Укажите ваш пол :</label>
+				<p style="font-size:18px; color: #55b194;" id="sex"></p>
+				 
+				   <label> Мужчина : <input checked="checked" id="Male" name="name" type="radio" value="man"> </label>
+				  <label>Женщина:<input name="name" type="radio" value="woman"></label>
+				<br><br><label for="password">Пароль :</label>
+				<input required maxlength="30" name="password" size="30px" type="password" value="password" id="password">
+				<br><br><label for="password">Повторите пароль :</label>
+				<input required maxlength="30" name="password" size="30px" type="password" value="password" id="password">
+                     
+                   <br><br><label for="color">Ваш любимый цвет :</label>
+				
+			 
+				    <select name="color" id="color">
+					<option value="White">
+						White
+					</option>
+					<option value="Green">
+						Green
+					</option>
+					<option value="Red">
+						Red
+					</option>
+					<option value="Black">
+						Black
+					</option>
+					<option value="Blue">
+						Blue
+					</option>
+					<option value="Gray">
+						Gray
+					</option>
+					<option value="Yellow">
+						Yellow
+					</option>
+				</select>
+				<p style="font-size:18px; color: #55b194;">Ваш комментарий
+				</p>
+				<textarea cols="45" name="comm" rows="5" placeholder="Ваш текст..."></textarea>
+				<label for="subm"></label>
+				<p><input class="submit" name="otpr" type="submit" value="отправить" id="subm"></p>
+			
+	
+			</form>
+	
+	</div>
+	</div>
+</body>
+</html>
