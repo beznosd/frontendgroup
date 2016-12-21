@@ -1,0 +1,77 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+.header {
+	margin: 0px;
+	font-family: Arial;
+	background-color: #fff3ab;
+	text-align: center;
+
+}
+h1 {
+	padding: 25px;
+	color: #468493;
+	margin: 0px;
+}
+h2 {
+	padding: 0 0 25px;
+	color: #71007a;
+	margin: 0px;
+}
+.conteiner{
+	background-color: #fff3ab;
+}
+.photo{
+	background: url(../img/ny.jpg) no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 100%;
+	display: block;
+	margin: 0px;
+}
+.ny{
+	margin: 0px;
+	text-align: right;
+	font-family: 'Indie Flower';
+	font-size: 42px;
+	color: #fff;
+}
+.button{
+text-align: center;
+}
+ 
+button{
+ 	background-color: #037e01;
+ 	padding: 5px 20px;
+ 	color: #fff
+ 	border: 3px solid #7d7282;
+
+ }
+ .text{
+	font-size: 14px;
+	padding: 0 0 0 25px;
+}
+
+.list{
+	height: 157px;
+	font-size: 18px;
+	background-color: #fc9b95;
+}
+
+li{
+	margin: 23px 0;
+	background-color: #ffe5e6;
+}
+
+.autor{
+	font-size: 14px;
+	text-align: center;
+}
+
+.bear{
+	height: 100px;
+	background: #fff url(../img/bear.jpg) no-repeat;
+	background-position: right;
+}
