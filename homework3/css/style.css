@@ -1,0 +1,99 @@
+body {
+	margin: 0px;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.images {
+	background: url(../img/newyork.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div {
+	margin:0px;
+	
+}
+
+.head {
+	margin: 0px;
+	height: 100%;
+	background: #fff3ab;
+	
+}
+
+h1 {
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+	size: 35px;
+	color: #004e8c;
+	
+}
+
+h2 {
+	margin: 0px;
+	text-align: center;
+	size: 25px;
+	color: #760086;
+	background: #fff3ab;
+	margin-bottom: 15px;
+}
+
+.txt {
+	margin: 0px;
+	size: 16px;
+	margin-left: 20px;
+}
+
+.bodycenter {
+	height: 600px;
+	
+}
+
+.table {
+	height: 300px;
+	background: #fff3ab;
+}
+
+.footer {
+	height: 65px;
+	background: white;
+}
+
+.newyork {
+	font-family: 'Kumar One', cursive;
+	color: white;
+	text-align: right;
+	font-size: 45px;
+	margin-right: 10px;
+	text-shadow: black 0 0 50px;
+}
+
+button{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	height: 50px;
+	width: 160px;
+	background-color: #037e01;
+	border: solid #807e7f 4px;
+	color: white;
+	font-size: 20px;
+}
+
+.txtfooter {
+	margin: 0;
+	text-align: center;
+	padding: 35px;
+}
+
+.spisok {
+	margin-top: 10px; 
+	background-color: #ff9899;
+	padding: 5px; 
+}
+
+li {
+	background-color: #ffe5e6;
+	margin:5px;
+}
