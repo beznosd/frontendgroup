@@ -1,0 +1,120 @@
+body {
+	background: #efb14c;
+	width: 1280px;
+	height: 1100px;
+	margin: 0px;
+	 }
+
+
+h1 {
+	color: #143945;
+	text-align: center;
+}
+
+
+h3 {
+	color: #5c065d;
+	text-align: center;
+	}
+
+
+.text { 
+	background: url(images/gorod.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 1350px;
+	height: 500px;
+	margin: 0px;
+	text-align: right;
+	font-family: GloriaHallelujah;
+	color: white;
+	font-size: 25px;
+}
+
+@font-face{ 
+		  font-family:GloriaHallelujah;
+		  src:url(font/GloriaHallelujah.ttf);
+		}
+
+
+ .knopka {
+		 border: 2px solid #7c807d;
+	     color: white;
+		 text-decoration: none;
+		 user-select: none;
+		 background: #007f03;
+		 text-align: center;
+		 padding: 10px;
+		 margin: 50px 550px;
+		 width: 150px;
+		 height: 24px; 
+}
+
+ .knopka:hover{
+			background: #7c807d;
+}
+
+.rose {
+	background: #fd999c;
+		width: 1320px;
+		height: 145px;
+		margin-bottom: 50px;
+		padding: 15px;
+		position: relative;
+}
+
+.punkt1 {
+		background: #ffe5e7;
+	  	width: 1250px; 
+		position: absolute: left:50px; top:50px;
+}
+	
+.punkt2{
+			 background: #ffe5e7;
+	  		 width: 1250px;
+	  		 position: absolute:left:50px; top:200px;
+	  		 margin-top: 10px;
+}
+
+.punkt3{
+			 background: #ffe5e7;
+	  		 width: 1250px;
+	  		 position: absolute:left:50px; top:300px;
+	  		 margin-top: 10px;
+}
+
+
+.punkt4{
+			 background: #ffe5e7;
+	  		 width: 1250px;
+	  		 position: absolute:left:50px; top:400px;
+	  		 margin-top: 10px;
+}
+
+
+
+
+.footer {
+		background: #fffeff;
+		width: 1350px;
+		height: 100px;
+}
+
+
+
+.name {
+		text-align: center;
+		padding-top:70px;
+			}
+
+
+.image {
+	background: url(images/medved.jpg) no-repeat;
+	width:83px;
+	height: 100px;
+	float: right;
+}
+
+
+
+
