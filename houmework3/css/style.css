@@ -1,0 +1,85 @@
+body{
+	height: 100%;
+	margin: 0px;
+	/*background-color: yellow;*/
+}
+.head {
+	height: 100%;
+	background-color: #fff3ab;
+}
+h1 {
+	color: navy;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+	size: 35px;
+}
+h2 {
+	color: pink;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 16px;
+	size: 25px;
+}
+.image {
+	margin: 0px;
+	background: url(../image/image1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.NY {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 35px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+}
+
+.table {
+	height: 300px;
+	background-color: #fff3ab; 
+}
+
+button {
+	height: 50px;
+	width: 160px;
+	border: solid black 3px;
+	background-color: green;
+	margin-top: 40px;
+	color: white;
+	font-family: serif;
+	font-size: 16px;
+}
+
+.pic {
+	margin-left: 20px;
+	font-family: serif;
+}
+
+.lol {
+	background-color: #ff9899;
+	padding: 5px;
+}
+
+li {
+	background-color: white;
+	margin: 5px;
+	font-family: serif;
+}
+
+.imgcentr{
+	height: 600px
+}
+
+.footer {
+	height: 60px;
+	background-color: white;
+}
+
+.creater {
+	text-align: center;
+	margin: 0px;
+	padding: 25px;
+}
