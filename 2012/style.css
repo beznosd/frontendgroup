@@ -1,0 +1,121 @@
+body {
+	background-color: #fff3ab;
+	margin: 0px;
+}
+.bgstyle {
+	background-color: #fff3ab;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: 0px;
+	color: #0d3f64;
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.ny {
+	text-align: right;
+	font-family: Zapfino;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 10px;
+
+
+}
+.backgr {
+	background: url(file:///Users/mouo/Desktop/git/frontendgroup/2012/images/7BecGwd127w.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: right;
+	width: 100%;
+	height: 500px;
+	margin-left: 0px;
+
+}
+h1 {
+	font-size: 25px;
+	font-family: Arial;
+	word-spacing: 3px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 20px;
+	color: #680076;
+	font-family: Arial;
+	font-weight bold;
+	margin-top: 0px;
+}
+
+.button {
+	margin-top: 30px;
+	border: 4px solid #7c827e;
+	background: #008200;
+	width: 150px;
+	height: 25px;
+	padding: 15px;
+
+}
+.link {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.fonts {
+	font-size: 20px;
+	margin-left: 30px;
+}
+.down {
+	background: #ff9899;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.one {
+    background: #fee5e8;
+    height: 25px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 10px;
+
+}
+.two {
+    background: #fee5e8;
+    height: 25px;
+    text-align: left;
+    padding-left: 3px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.three {
+    background: #fee5e8;
+    height: 25px;
+    text-align: left;
+    padding-left: 3px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.four{
+	background: #fee5e8;
+    height: 25px;
+    text-align: left;
+    padding-left: 3px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.footer {
+	background: url(file:///Users/mouo/Desktop/git/frontendgroup/2012/images/medved.jpg), white;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 100px;
+	margin-top: 10px;
+	padding-top: 20px;
+	text-align: center;
+}

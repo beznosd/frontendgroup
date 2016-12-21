@@ -18,9 +18,11 @@ label {
 	padding-right: 50px;
 }
 .mainforms {
-	left: 43%;
+    width: 400px;
+    left: 200px;
 	top: 10%;
 	position: fixed;
+	
 
 }
 .married {
@@ -33,7 +35,7 @@ label {
 }
 input {
 	color: gray;
-	height: 10px;
+	height: 12px;
 }
 select {
 
