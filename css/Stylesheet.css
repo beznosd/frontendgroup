@@ -1,0 +1,27 @@
+fieldset {
+	border-color: #48C8D6;
+	color: #702300;
+	background-color: #F9F3EE;
+	border-radius: 5px;
+	font-weight: bold;
+	}
+legend {
+	color: #2B7982;
+	font-weight: bold;
+	font-size: 20px;	
+	}
+button {
+	background-color: #5DC0BF;
+	color: #702300;
+	font-size: 14 px;
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	font-weight: bold;
+	}
+input {
+	border-radius: 1px;
+	}
+input:hover {
+	border-color:#5DC0BF; 
+	}

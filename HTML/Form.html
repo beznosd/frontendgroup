@@ -1,72 +1,45 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">	
-	<title>Form</title>
-	<style type="text/css">
-		fieldset{
-			border-color: #48C8D6;
-			color: #702300;
-			background-color: #F9F3EE;
-			border-radius: 5px;
-			font-weight: bold;
-		}
-		legend{
-			color: #2B7982;
-			font-weight: bold;
-			font-size: 20px;	
-		}
-		button{
-			background-color: #5DC0BF;
-			color: #702300;
-			font-size: 12 px;
-			width: 100px;
-			height: 35px;
-			border-radius: 5px;
-			font-weight: bold;
+	<html>
+	<head>
+		<meta charset="utf-8">	
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+	</head>
+    <body>
+  		<form action="#" method="post">	
+			<fieldset>
+				<legend>Контактные данные</legend>
+				   <p><label for="name"> Имя </label><input type="text" name="name" placeholder="Введите Имя"></p>
+				   <p><label for="second_name"> Фамилия </label><input type="text" name="second_name" placeholder="Введите Фамилию"></p>
+				   <p><label for="email"> Email </label><input type="email" name="email" placeholder="Введите email"></p>
+				   <p><label for="password"> Пароль </label><input type="password" name="password" placeholder="*******"></p>
+			</fieldset><br/>
 
-		}
-		input{
-			border-radius: 1px;
-		}
-		input:hover{
-			border-color:#5DC0BF; 
-		}
+			<fieldset>
+	   			 <legend>Сделай выбор</legend>
+		   			<label for="lang">Выберите язык:</label>
+					<select name="lang">		 
+		  				<option value="русский" selected>русский</option>
+		  				<option>украинский</option>
+		  				<option>английский</option>
+		   				<option>немецкий</option>
+					</select><br/><br/>
 
-	</style>
-	
-</head>
-<body>
-  <form action="#" method="post">	
-	<fieldset>
-		<legend>Контактные данные</legend>
-		   <p><label for="name"> Имя </label><input type="text" name="name" placeholder="Введите Имя"></p>
-		   <p><label for="second_name"> Фамилия </label><input type="text" name="second_name" placeholder="Введите Фамилию"></p>
-		   <p><label for="email"> Email </label><input type="email" name="email" placeholder="Введите email"></p>
-		   <p><label for="password"> Пароль </label><input type="password" name="password" placeholder="*******"></p>
-	</fieldset><br/>
-	<fieldset>
-	    <legend>Сделай выбор</legend>
-		   <label for="lang">Выберите язык:</label>
-		<select name="lang">		 
-		   <option value="русский" selected>русский</option>
-		   <option>украинский</option>
-		   <option>английский</option>
-		   <option>немецкий</option>
-		</select><br/><br/>
-	       <label> Выберите пол: </label><br/><br/>
-           <input type="radio" name="sex" value="мужской">мужской
-           <input type="radio" name="sex" value="женский">женский<br/><br/>
-        <label> Выберите цвет: </label><br/><br/>
-  	  	   <input type="checkbox" name="check">Красная
-  	  	   <input type="checkbox" name="check">Синяя<br><br>
-	</fieldset><br/>
-	<fieldset>
-		<legend>Прокомментируй</legend>
-		   <label for="your_message">Комментарий</label>
-		   <textarea name="your_message" placeholder="Введите ваш комментарий"></textarea>	
-	</fieldset>	<br><br>
-  	  	   <button type="submit" rows="10" cols="30">Отправить</button>
+	       			<label> Выберите пол: </label><br/><br/>
+          			 	<label><input type="radio" name="sex" value="мужской">мужской</label>
+           				<label><input type="radio" name="sex" value="женский">женский<br/></label><br/>
+        			<label> Выберите цвет: </label><br/><br/>
+  	  	   				<label><input type="checkbox" name="check" checked >Красная </label>
+  	       				<label><input type="checkbox" name="check">Синяя</label>
+  			</fieldset>	<br> 
+
+			<fieldset>
+				<legend>Прокомментируй</legend>
+				    <label for="your_message">Комментарий</label>
+					</label><textarea name="your_message" placeholder="Введите ваш комментарий"></textarea>	
+			</fieldset>	<br><br>
+
+  	  	    <button type="submit" rows="50" cols="40">Отправить</button>
 
 
   </form>
