@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Indie Flower'; 
+    src: url(IndieFlower.ttf); 
+   }
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+.header{
+	margin: 0px;
+	font-family: Arial, sans-serif;
+	background-color: #fff3ab;
+	text-align: center;
+}
+
+h1{
+	padding: 25px;
+	color: #468493;
+	margin: 0px;
+}
+
+h2{
+	padding: 0 0 25px;
+	margin: 0px;
+	color: #71007a;
+}
+
+.conteiner{
+	background-color: #fff3ab;
+}
+
+.photo{
+	background: url(../img/nycity.jpg) no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 100%;
+	display: block;
+	margin: 0px;
+}
+
+.ny{
+	margin: 0px;
+	text-align: right;
+	font-family: 'Indie Flower';
+	font-size: 42px;
+	color: #fff;
+}
+
+.button{
+	text-align: center;
+}
+
+button{
+	background-color: #037e01;
+	padding: 5px 20px;
+	color: #fff;
+	border: 3px solid #7d7282;
+}
+
+.text{
+	font-size: 14px;
+	padding: 0 0 0 25px;
+}
+
+.list{
+
+	font-size: 18px;
+	background-color: #fc9b95;
+	padding: 15px 35px;
+}
+
+.list ul{
+	margin: 0;
+	padding: 0;
+}
+
+.list ul li{
+	margin: 10px 0 0 0;
+	background-color: #ffe5e6;
+}
+
+.list ul li:first-child{
+	margin-top:0;
+}
+
+.autor{
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+  padding: 12px 0;
+}
+
+.footer{
+	position: relative;
+}
+
+.footer-block-position{
+	position: absolute;
+	top: 0;
+	right:0;
+	background: url(../img/bear.jpg) no-repeat ;
+	height: 40px;
+  width: 86px;
+  z-index: 10;
+}
+
+.line{
+	margin: 0;
+}
