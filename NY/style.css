@@ -1,0 +1,82 @@
+body{
+	background: #fff3ab;
+	text-align: center;
+	font-family: helvetica;
+}
+
+h1 {
+	text-align: center;
+	color: #103d5b;
+	font-size: 30px;
+}
+
+h2 {
+	text-align: center;
+	color: #620a58;
+}
+
+p {
+	position: relative;
+	top: 70px;
+	text-align: left;
+	margin-left: 27px;
+}
+
+
+#fon{
+	background-image: url(images/fon.jpg);
+	height:980px;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-size: 32px;
+	text-align: right;
+	padding:40px;
+}
+
+#button{
+	position: relative;
+	top:35px;
+	font-size:20px;
+	background: #008101;
+	color: white;
+	padding: 10px 12px;
+	border:4px solid #8b8277;
+}
+
+#menu {
+	background:#fd999b;
+	height: 140px;
+	margin-top: 80px;
+}
+
+#list {
+	position: relative;
+	top:20px;
+	margin-bottom:4px;
+	margin-right: 25px;
+    background: #ffe5e6;
+	font-size: 16px;
+	padding-left:4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: left; 
+}
+
+#footer {
+	position: relative;
+    top:15px;
+    background: #ffffff;
+    height:60px;
+    text-align: center;
+    padding-bottom:35px;
+}
+
+#miwa{
+    position: relative;
+    top:20%;
+    left:40%;
+	height: 60px;
+}
+		
+
