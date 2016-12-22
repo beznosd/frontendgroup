@@ -65,6 +65,7 @@ h2 {
 	font-weight: bold;
 }
 .fonts {
+	font-family: Arial;
 	font-size: 20px;
 	margin-left: 30px;
 }
@@ -79,6 +80,7 @@ h2 {
 .one {
     background: #fee5e8;
     height: 25px;
+    font-family: Arial;
     text-align: left;
     padding-left: 3px;
     padding-top: 10px;
@@ -87,6 +89,7 @@ h2 {
 .two {
     background: #fee5e8;
     height: 25px;
+    font-family: Arial;
     text-align: left;
     padding-left: 3px;
     margin-top: 5px;
@@ -95,6 +98,7 @@ h2 {
 .three {
     background: #fee5e8;
     height: 25px;
+    font-family: Arial;
     text-align: left;
     padding-left: 3px;
     margin-top: 5px;
@@ -103,6 +107,7 @@ h2 {
 .four{
 	background: #fee5e8;
     height: 25px;
+    font-family: Arial;
     text-align: left;
     padding-left: 3px;
     margin-top: 5px;
