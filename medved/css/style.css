@@ -15,11 +15,10 @@ body {
 }
 .ny {
 	text-align: right;
-	font-family: Zapfino;
+	font-family: 'Indie Flower', cursive;
 	color: white;
 	font-weight: bold;
-	font-size: 25px;
-	width: 100%;
+	font-size: 27px;
 	margin-top: 0px;
 	margin-right: 10px;
 
@@ -30,7 +29,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: right;
-	width: 100%;
 	height: 500px;
 	margin-left: 0px;
 
