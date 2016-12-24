@@ -1,0 +1,177 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	background: url(../img/back.jpg) repeat;
+}
+
+/* Header */
+
+.header{
+	height: 60px;
+	background: #333;
+}
+
+.header .menu  {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #333;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+
+.header .menu li {
+    float: left;
+}
+
+.header .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 22px;
+    text-decoration: none;
+}
+
+.header .menu li a:hover {
+    background-color: #4CAF50;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/*Image gallery*/
+
+.block-image {
+    box-sizing: border-box;
+    margin: 20px 3px;
+    border: #000 solid 1px;
+    height: 320px;
+    width: 250px;
+    background: #cccccc;
+    opacity: 0.7;
+    
+}
+
+.block-descriotion {
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.gallery .block-image {
+    float: left;
+}
+
+.block-image:hover {
+    opacity: 1;
+}
+
+/*Contentt*/
+.content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+ h1 {
+    margin:30px;
+    text-align: center;
+ }
+
+.content .txt-block img {
+    float: right;
+    margin-left: 10px;
+
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content .txt-block2 img{
+    float: left;
+    margin-right: 10px;
+}
+
+/*Footer*/
+.footer{
+    margin: 0px;
+    height: 50px;
+    background: #333;
+}
+
+.footer ul .instagram {
+    background: url(../img/instagram-logo1.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul .instagram:hover {
+    background: url(../img/instagram-logo.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul .facebook {
+    background: url(../img/facebook-logo1.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul .facebook:hover {
+    background: url(../img/facebook-logo.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul .twitter {
+    background: url(../img/twitter-logo1.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul .twitter:hover {
+    background: url(../img/twitter-logo.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer .social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+
+.footer .social ul li {
+    float: left;
+}
+
+.footer .social ul li a {
+    margin: 9px;
+}
+
+.footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
