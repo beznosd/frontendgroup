@@ -1,0 +1,211 @@
+
+.wrapper {
+	margin: 10px 200px;
+}
+
+
+
+html,body {
+	margin:0px;
+	padding:0;
+	font-family:Helvetica;
+	background: url(images/back.jpg);
+}
+
+/*header*/
+
+.header {
+	height:60px;
+	background:#333;
+}
+
+
+.header.menu ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+}
+
+
+.header.menu li a:hover {
+	background-color: #4CAF50;
+}
+
+
+li {
+	 display: block;
+	 float: left; /*Задаем обтекание*/
+     line-height: 50px;/*Высота строки +  верт. центрирования текста*/
+     background: #333;
+     color: white;
+     margin-top: 0px;
+     width: 120px; /*Фиксируем ширину блока*/
+     height: 60px;
+     margin-right: 50px;
+     text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+.about {
+	margin-left: 336px;
+}
+
+.home {
+	margin-left:150px;
+}
+
+
+li:hover {
+	background-color: #4daf51;
+}
+
+.block {
+     width: 948px;
+     margin: 0 auto;/*центрируем*/
+     height: 287px;/*Задаем высоту обертки*/
+}
+
+.block:last-child {
+        margin-right: 0px;/*Убираем поле последнего div-а*/
+}
+
+
+.image1 {
+	display: block;
+	background:url(images/img1.jpeg) no-repeat;
+	float:left;
+	width: 225px;
+	height: 275px;
+	border:1px solid #333;
+	margin: 5px;
+	padding-bottom: 5px;
+}
+
+.image1:hover {
+	border: 1px solid #4caf51;
+}
+
+.image2 {
+	display: block;
+	background:url(images/img2.jpeg) no-repeat;
+	float:left;
+	width: 225px;
+	height: 280px;
+	border:1px solid #333;
+	margin: 5px;
+}
+
+.image2:hover {
+	border: 1px solid #4caf51;
+}
+
+.image3 {
+	display: block;
+	background:url(images/img3.jpeg) no-repeat;
+	float:left;
+	width: 225px;
+	height: 280px;
+	border:1px solid #333;
+	margin: 5px;
+}
+
+.image3:hover {
+	border: 1px solid #4caf51;
+}
+
+.image4 {
+	display: block;
+	background:url(images/img4.jpeg) no-repeat;
+	float:left;
+	width: 225px;
+	height: 280px;
+	border:1px solid #333;
+	margin: 5px;
+}
+
+.image4:hover {
+	border: 1px solid #4caf51;
+}
+
+.text {
+	margin-top:100%;
+	text-align:center;
+	padding: 11px;
+	text-decoration: none;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+.text-img1 {
+	background: url(images/text-img1.jpg) no-repeat;
+	width: 211px;
+	height: 142px;
+	background-size: contain;
+	float:right;
+	margin: 0px 0px 5px 5px;
+}
+
+
+.text-img2 {
+	background-position:left 80px;
+	background: url(images/text-img2.jpg) no-repeat;
+	width: 264px;
+	height: 148px;
+	background-size: contain;
+	float:left;
+	margin: 5px 5px 5px 0px;
+}
+
+.div-text {
+	text-align: justify;
+
+}
+
+footer {
+	height: 25px;
+	background: #333;
+	padding: 20px;
+}
+
+.logo1 {
+	height: 35px;
+	width: 34px;
+	background: url(images/instagram-logo.png) no-repeat;
+	float:left;
+	margin-right: 8px;
+	cursor: pointer;	
+}
+
+
+.logo2 {
+	height: 35px;
+	width: 34px;
+	background: url(images/facebook-logo.png) no-repeat;
+	float:left;
+	cursor: pointer;
+}
+
+
+.logo3 {
+	height: 35px;
+	width: 34px;
+	background: url(images/twitter-logo.png) no-repeat;
+	float:left;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+
+.conteiner {
+	height: 20px;
+	width: 120px;
+	margin:auto;
+}
+
+
+
+
