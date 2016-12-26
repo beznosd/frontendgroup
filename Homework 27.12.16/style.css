@@ -1,0 +1,102 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	background: url(pictures/back.jpg) repeat;
+	font-family: sans-serif;
+}
+.container {
+	width: 100%;
+	margin: 0px;
+	background-color: #333;
+}
+.menu {
+	width: 1024px;
+	height: 60px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	background-color: #333;
+}	
+ul {
+	margin: 0px;
+	color: white;
+	padding: 0px; 
+}
+li {
+	float: left;
+	list-style-type: none;
+}
+a { 
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 21px 26px;
+	font-size: 16px;
+}
+.empty {
+	display: inline-block;
+	width:190px;
+	height:60px;
+}
+
+a.href:hover {
+	background-color: #4DAF52;
+}
+.photos {
+	clear: left;
+	width: 1030px;
+	margin:40px auto;
+	text-align: center;
+	overflow: auto;
+}
+.photo1 ,.photo2, .photo3,.photo4 {
+	float: left;
+	border: 1px solid black;
+	height: 320px;
+	width: 250px;
+	margin: 2px; 
+	font-size: 19px;
+	background: #CCCCCC;
+	/*font-weight: bold;*/
+}
+h1 {
+	text-align: center;
+}
+img {
+	width: 250px;
+}
+p {
+	margin: 10px auto;
+}
+p.text {	
+	width: 1024px;
+	margin: 20px auto;
+	text-align: justify;
+	
+}
+.img_left {
+	float: right;
+	width: 300px;
+	margin: 3px;
+}
+.img_right {
+	float: left;
+	width: 300px;
+	margin: 3px;	
+}
+.footer {
+	width: 100%;
+	margin: 0px;
+	height: 60px;
+	background-color: #333;
+}
+.gif_img {
+	text-align: center;
+}
+div .gif_img img {
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+}
+
+
