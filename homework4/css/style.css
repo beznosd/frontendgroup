@@ -29,6 +29,11 @@ html, body {
     float: left;
 }
 
+.menu ul li.about {
+    background-color: #4CAF50;
+    float: right;
+}
+
 .header .menu li a {
     display: block;
     color: white;
