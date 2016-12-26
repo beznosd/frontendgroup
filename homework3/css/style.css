@@ -2,12 +2,13 @@ body {
 	margin: 0px;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
-}
-
-.images {
 	background: url(../img/newyork.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+.images {
+
 }
 
 div {
@@ -57,8 +58,14 @@ h2 {
 }
 
 .footer {
+	margin:0;
+	text-align: center;
 	height: 65px;
-	background: white;
+	background: white url(../img/medved.jpg) top right no-repeat;
+	text-align: center;
+	display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .newyork {
@@ -81,10 +88,8 @@ button{
 	font-size: 20px;
 }
 
-.txtfooter {
-	margin: 0;
-	text-align: center;
-	padding: 35px;
+button:hover {
+	background: #03c900;
 }
 
 .spisok {
