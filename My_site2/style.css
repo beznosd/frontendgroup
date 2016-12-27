@@ -1,0 +1,137 @@
+html, body {
+    margin: 0 auto;
+    background: url(images/back.jpg);
+    width: 100%;
+    font-size: 20px;
+}
+a {
+	text-decoration: none;
+	outline: none; 
+	color: black;
+}
+
+.header {
+    height: 60px;
+    background: #333;
+    color: #fff;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header ul {
+    margin: 0;
+}
+
+.header ul li {
+    list-style-type: none;
+    float: left;
+    padding-top: 22px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 21px 21px;
+}
+
+.header ul li a:hover {
+    background: green;
+}
+
+div.img {
+    border: 3px solid #222222;
+    margin: 0 3px;
+}
+
+div.img:hover {
+    border: 0px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    background: #cecaca;
+    padding: 25px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 20px 0;
+    float: left;
+    width: 1024px;
+}
+
+
+.responsive:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+	width: 250px;
+	margin: 0 3px;
+	float: left;
+}
+
+.content-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+        
+h2 {
+    padding: 30px 0 0;  
+    text-align: center;      
+}
+
+.div  {
+	
+}
+
+.div1 img {
+    float: right;
+    width: 300px;
+    height: 200px;
+    vertical-align: middle;
+    margin: 0px 0px 20px 20px;
+        
+}
+
+.div2 {
+    text-align: justify;
+    
+}
+
+.div3 img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    vertical-align: middle;
+    margin: 20px 20px 20px 0px;  
+}
+
+.div4 {
+    text-align: justify;
+    
+}
+
+.footer {
+	text-align: center;
+    height: 50px;
+    background: #333;
+}
+
+.footer img {
+	margin: 0 10px;
+	padding: 9px 0;
+}
