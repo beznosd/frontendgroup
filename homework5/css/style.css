@@ -1,0 +1,43 @@
+body {
+	font-family: Helvetica;
+	margin: 0;
+}
+
+.box-border {
+	margin: 200px auto;
+	width: 600px;
+	height: 400px;
+	position: relative;
+	border: 5px solid salmon;
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+	width: 250px;
+	position: absolute;
+	left: 50%;
+	margin-top: 100px;
+	margin-left: -165px;
+}
+
+ul li {
+	padding: 10px 20px;
+	background: #f0f0f0;
+	cursor: pointer;
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: darkgray;
+	text-transform: uppercase;
+}
+
+ul li:hover {
+	background: green;
+}
+
+ul li:hover a {
+	color: white;
+}
