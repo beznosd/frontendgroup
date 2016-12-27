@@ -1,0 +1,196 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	background: url(images/back.jpg);
+}
+
+.header {
+	height: 60px;
+	background: #333;
+}
+
+.header .menu {
+	width: 1024px;
+	background:#333;
+	margin: 0 auto;
+}
+
+.header .menu ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.header .menu li{
+	float: left;
+}
+
+.header .menu li a{
+	color: white;
+	display:block;
+	text-align: center;
+	padding: 21px 22px;
+	text-decoration: none;
+}
+
+.header .menu li a:hover {
+    background-color: #4CAF50;
+}
+
+#about {
+	margin-left: 665px;
+}
+
+.photo {
+	height: 370px;
+}
+
+.nature {
+	height: 370px;
+	width: 1024px;
+	margin: 30px auto;
+}
+
+.nat1{
+	display: block;
+	height: 370px;
+	width: 250px;
+	background: #cccccc;
+	margin-left: 3px;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.nat2{
+	display: block;
+	height: 370px;
+	width: 250px;
+	background: #cccccc;
+	margin-left:6px;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+ 
+ .nat3{
+	display: block;
+	height: 370px;
+	width: 250px;
+	background: #cccccc;
+	margin-left:6px;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+ .nat4{
+	display: block;
+	height: 370px;
+	width: 250px;
+	background: #cccccc;
+	margin-left:6px;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+#description {
+	text-align: center;
+	padding: 10px;
+}
+
+.nat1:hover {
+	opacity: 0.9;
+	transform: scale(1.05);
+}
+
+.nat2:hover {
+	opacity: 0.9;
+	transform: scale(1.05);
+}
+
+.nat3:hover {
+	opacity: 0.9;
+	transform: scale(1.05);
+}
+
+.nat4:hover {
+	opacity: 0.9;
+	transform: scale(1.05);
+}
+
+.content {
+	height: 650px;
+}
+
+.text {
+	height: 650px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.pict1 {
+	margin-left: 724px;
+	float: right;
+	margin: 0 0 10px 12px;
+	margin-top: 5px;
+}
+
+.pict2 {
+	float: left;
+	margin: 5px 10px 10px 0;
+}
+
+.footer {
+	height: 60px;
+	background: #333;
+}
+
+.logo ul {
+	height: 60px;
+	width: 1024px;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+.logo li {
+	float: left;
+	padding: 15px 5px;
+}
+
+#inst {
+	margin-left: 450px;
+}
+
+#inst:hover {
+	opacity: 0.5;
+	transform: scale(1.5);
+}
+
+#fb:hover {
+	opacity: 0.5;
+	transform: scale(1.5);
+}
+
+#tw:hover {
+	opacity: 0.5;
+	transform: scale(1.5);
+}
+
+p {
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
