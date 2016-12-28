@@ -7,7 +7,9 @@ html, body{
 
 .header{
 	height: 60px;
+	width: 100%;
 	background: #333;
+	position: fixed;
 }
 
 .header .menu{
@@ -46,6 +48,7 @@ html, body{
 
 .container{
 	height: 100%;
+	padding-top: 70px;
 }
 
 .container .pictures{
@@ -70,9 +73,13 @@ html, body{
 	text-align: center;
 	border: 1px solid #000;
 	height: 287px;
-	width: 225px;
+	width: 244px;
 	text-decoration: none;
 	color: #000;
+}
+
+.container .pictures li img{
+	width: 244px;
 }
 
 .container .pictures li a p{
@@ -143,4 +150,3 @@ p{
 	text-decoration: none;
 	padding: 4.5px 6px;
 }
-

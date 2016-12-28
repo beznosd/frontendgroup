@@ -1,0 +1,39 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.wraper{
+	position: relative;
+	margin-top: 75px;
+	border: 5px solid salmon;
+	height: 400px;
+	width: 600px;
+	margin: 100px auto;
+}
+
+.wraper ul{
+	list-style-type: none;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	background: #ddd;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	top: 130px;
+}
+
+.wraper li a{
+	display: block;	
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #999;
+}
+
+.wraper li a:hover{
+	color: #fff;
+	background: green;
+	cursor: pointer;
+}
