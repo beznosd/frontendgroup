@@ -1,13 +1,17 @@
-
 .wrapper {
-	margin: 10px 200px;
+	position: center;
+	width: 890px;
+	height: 555px;
+	margin: 0px 250px;
 }
 
 
 
 html,body {
-	margin:0px;
-	padding:0;
+	position: fixed;
+	width: 1400px;
+	margin:-10px;
+	padding:0px;
 	font-family:Helvetica;
 	background: url(images/back.jpg);
 }
@@ -15,7 +19,7 @@ html,body {
 /*header*/
 
 .header {
-	height:60px;
+	height:50px;
 	background:#333;
 }
 
@@ -34,21 +38,22 @@ html,body {
 
 
 li {
-	 display: block;
-	 float: left; /*Задаем обтекание*/
-     line-height: 50px;/*Высота строки +  верт. центрирования текста*/
-     background: #333;
-     color: white;
-     margin-top: 0px;
-     width: 120px; /*Фиксируем ширину блока*/
-     height: 60px;
-     margin-right: 50px;
-     text-align: center; /*Центрируем текст по горизонтали*/
+	display: block;
+	float: left; /*Задаем обтекание*/
+    line-height: 50px;/*Высота строки +  верт. центрирования текста*/
+    background: #333;
+    color: white;
+    margin-top: 0px;
+    width: 120px; /*Фиксируем ширину блока*/
+    height: 50px;
+    margin-right: 50px;
+    text-align: center; /*Центрируем текст по горизонтали*/
 }
 
 .about {
-	margin-left: 336px;
+	margin-left: 370px;
 }
+
 
 .home {
 	margin-left:150px;
@@ -59,14 +64,10 @@ li:hover {
 	background-color: #4daf51;
 }
 
-.block {
-     width: 948px;
-     margin: 0 auto;/*центрируем*/
-     height: 287px;/*Задаем высоту обертки*/
-}
 
-.block:last-child {
-        margin-right: 0px;/*Убираем поле последнего div-а*/
+.block {
+    width: 890px;
+    height: 265px;
 }
 
 
@@ -74,12 +75,14 @@ li:hover {
 	display: block;
 	background:url(images/img1.jpeg) no-repeat;
 	float:left;
-	width: 225px;
-	height: 275px;
+	width: 210px;
+	height: 251px;
+	overflow: hidden;
 	border:1px solid #333;
 	margin: 5px;
 	padding-bottom: 5px;
 }
+
 
 .image1:hover {
 	border: 1px solid #4caf51;
@@ -89,36 +92,43 @@ li:hover {
 	display: block;
 	background:url(images/img2.jpeg) no-repeat;
 	float:left;
-	width: 225px;
-	height: 280px;
+	width: 210px;
+	height: 255px;
+	overflow: hidden;
 	border:1px solid #333;
 	margin: 5px;
 }
+
 
 .image2:hover {
 	border: 1px solid #4caf51;
 }
 
+
 .image3 {
 	display: block;
 	background:url(images/img3.jpeg) no-repeat;
 	float:left;
-	width: 225px;
-	height: 280px;
+	width: 210px;
+	height: 255px;
+	overflow: hidden;
 	border:1px solid #333;
 	margin: 5px;
 }
+
 
 .image3:hover {
 	border: 1px solid #4caf51;
 }
 
+
 .image4 {
 	display: block;
 	background:url(images/img4.jpeg) no-repeat;
 	float:left;
-	width: 225px;
-	height: 280px;
+	width: 210px;
+	height: 255px;
+	overflow: hidden;
 	border:1px solid #333;
 	margin: 5px;
 }
@@ -128,15 +138,25 @@ li:hover {
 }
 
 .text {
+	font-size:12px;
 	margin-top:100%;
 	text-align:center;
-	padding: 11px;
+	padding: 15px;
+}
+
+a {
 	text-decoration: none;
 }
 
 
 h1 {
-	text-align: center;
+	margin-left: 390px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p {
+	margin:0;
 }
 
 
@@ -149,9 +169,18 @@ h1 {
 	margin: 0px 0px 5px 5px;
 }
 
+.div-text {
+	position: center;
+	width: 890px;
+	height: 290px;
+	font-size: 12px;
+	text-align: justify;
+	font-family:Helvetica;
+}
+
 
 .text-img2 {
-	background-position:left 80px;
+	background-position:left;
 	background: url(images/text-img2.jpg) no-repeat;
 	width: 264px;
 	height: 148px;
@@ -160,16 +189,12 @@ h1 {
 	margin: 5px 5px 5px 0px;
 }
 
-.div-text {
-	text-align: justify;
-
-}
 
 footer {
-	height: 25px;
+	height: 55px;
 	background: #333;
-	padding: 20px;
 }
+
 
 .logo1 {
 	height: 35px;
@@ -204,8 +229,6 @@ footer {
 	height: 20px;
 	width: 120px;
 	margin:auto;
+	margin-top:0;
+	padding: 5px;
 }
-
-
-
-
