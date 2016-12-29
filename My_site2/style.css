@@ -16,6 +16,7 @@ a {
     color: #fff;
 }
 
+
 .wrapper {
     width: 1024px;
     margin: 0 auto;
@@ -53,13 +54,28 @@ div.img:hover {
 div.img img {
     width: 100%;
     height: auto;
+	z-index: 1;
+	
+}
+
+#top_nav {
+	width: 0px;
+	position: fixed;
+	z-index: 2;
+	
 }
 
 div.desc {
+	width: 250px;
     background: #cecaca;
-    padding: 25px;
+	padding: 25px;
     text-align: center;
+	position: fixed;
+	top: 285px;
+	z-index: 1;
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -94,9 +110,7 @@ h2 {
     text-align: center;      
 }
 
-.div  {
-	
-}
+
 
 .div1 img {
     float: right;
