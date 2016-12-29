@@ -9,6 +9,9 @@ html, body {
 .header{
     height: 60px;
     background: #333;
+	position: fixed;
+	width: 100%;
+
 }
 
 .header .menu {
@@ -32,7 +35,7 @@ html, body {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 22px;
+    padding: 20.5px 22px;
     text-decoration: none;
 }
 
@@ -47,6 +50,7 @@ html, body {
     height: 290px;
     line-height: 1.7;
     background: #ccc;
+	margin-top: 100px;
     
 }
 
@@ -79,7 +83,6 @@ p img {
 }
 
 .block {
-    margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
     width: 1024px;
@@ -103,7 +106,7 @@ p img {
 
 .about a:hover {
     background-color: #4CAF50;
-    padding: 20px 22px;
+    padding: 20.5px 22px;
 
 
 
