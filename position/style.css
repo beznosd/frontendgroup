@@ -1,0 +1,49 @@
+
+.ramka {
+	height: 600px;
+	width:960px;
+	border: 5px solid #e68a79;
+	box-sizing: border-box;
+	margin:100px auto;
+}
+
+.menu {
+	position: relative;
+	left: 320px;
+	top: 200px;
+	background: #f0f0f0;
+	width: 320px;
+	height: 200px;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+ ul li {
+	font-size: 22px;
+    padding:12px 10px 12px 20px;
+	text-transform: uppercase;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #acacac;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+	
+a:hover {
+	background: green;
+}
+
+li:hover {
+	background: green;
+}
+
+li:hover a{
+	color: black;
+}
