@@ -10,9 +10,11 @@ body {
 
 }
 .header .menu {
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #333;
+	position: fixed;
+	z-index: 10;
 }
 .header .menu ul {
 	list-style-type: none;
@@ -35,9 +37,10 @@ body {
 	background-color: #4caf50;
 }
 .imgblock {
+	position: relative;
+	top: 100px;
 	width: 1024px;
 	margin: 0 auto;
-	margin-top: 20px;
 
 }
 
@@ -63,6 +66,8 @@ body {
 	clear: both;
 	text-align: center;
 	padding-top: 20px;
+	position: relative;
+	top: 90px;
 
 }
 p {
@@ -87,6 +92,8 @@ p {
 	background: #333;
 	margin-top: 20px;
 	text-align: center;
+	position: relative;
+	top: 80px;
 }
 
 .imgi {
@@ -107,4 +114,9 @@ p {
 .right a:hover {
 	background: #4cb050;
 	color: white;
+}
+
+.fontblock {
+	position: relative;
+	top: 80px;
 }
