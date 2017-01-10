@@ -1,0 +1,170 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/back.jpg);
+	font-family: Helvetica;
+	display: block;
+}
+
+			/*  Heder  */
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+}
+
+.menu  {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #333;
+}
+
+.about {
+	float: right;
+	background-color: #4CAF50;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	/* overflow: hidden; */
+} 
+
+li {
+	float: left;
+	list-style-type: none;
+}
+
+a {
+	padding: 21px 22px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+
+a:hover{
+	background-color: #4CAF50;
+}
+
+			/* Gallery */
+
+.gallery {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	position: sticky;
+	display: block;
+}
+
+.gallery:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.img-block {
+	display: block;
+	float: left;
+}
+
+.img-block a {
+	width: 250px;
+	background-image: url(images\img1.jpeg);
+	margin:3px;
+	padding: 0px;
+	float: left;
+	outline: 1px solid black;
+	cursor: auto;
+	background-color: #ccc;
+}
+
+.img-block a:hover {
+	background-color: #fff;
+	outline: 1px solid grey;
+}
+
+.img-block img {
+	width: 250px;
+	height: auto;
+}
+
+.img-block div {
+	text-align: center;
+	padding: 15px;
+	color: #333;
+}
+
+.img-block a:hover img {
+	opacity:0.8;
+}
+
+			/* Trxt-block */
+
+.text {
+	width: 1024px;	
+	margin:0 auto;
+	display: block;
+	text-align: justify;
+
+}
+
+.text h1{
+	text-align: center;
+	margin-top:30px;
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.img-right {
+	float: right;
+	padding-left: 15px;
+	width: 300px;
+}
+
+.img-left {
+	float: left;
+	padding-right: 15px;
+	width: 300px;
+}
+
+			/* Footer */
+
+.footer {
+	height: 50px;
+	bottom:0px; 
+	background-color: #333;
+	position: relative;
+}
+
+.links {
+	width: 1024px;
+	margin:0 auto;
+	height: 50px;
+	background-color:#333;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.links a {
+	margin:0 -5px;
+	padding: 0px; 
+	cursor: auto;
+	display: inline;
+}
+
+.links a:hover{
+	background: none;
+}
+
+.links a img{
+	margin: 5px;
+	padding: 5px;
+	vertical-align: middle;
+}
