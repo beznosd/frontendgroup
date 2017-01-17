@@ -630,6 +630,10 @@ body{
 	font-size: 12px;
 }
 
+.post__link:hover h6{
+	font-weight: 300;
+}
+
 /*Footer*/
 
 .footer{
