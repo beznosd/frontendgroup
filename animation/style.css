@@ -1,0 +1,81 @@
+body{
+	background:#92d1d3;
+	margin:0;
+}
+
+.grass{
+	position:relative;
+	top:300px;
+	background: green;
+	height: 300px;
+	margin:0;
+}
+
+.flowers_1{
+	position:absolute;
+	top:80px;
+	left:155px;
+	width: 80px;
+	height: 80px;
+}
+
+.flowers_2{
+	position: absolute;
+	left:680px;
+	top:85px;
+	width: 80px;
+	height: 80px;
+}
+
+.flowers_3{
+	position: absolute;
+	left:950px;
+	top:150px;
+	width: 80px;
+	height: 80px;
+}
+
+.flowers_4{
+	position: absolute;
+	left:1200px;
+	top:85px;
+	width: 80px;
+	height: 80px;
+}
+
+.flowers_5{
+	position: absolute;
+	left:420px;
+	top:150px;
+	width: 80px;
+	height: 80px;
+}
+
+.bee{
+	position:absolute;
+	left:0px;
+	z-index: 10;
+	height: 200px;
+	width: 180px;
+	animation-name:fly;
+	animation-duration: 5s;
+	animation-duration:reverse;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode:forwards;
+}
+
+@keyframes fly{
+	from {
+  transform:translateX(900px);
+}
+0%{top:150px;}
+50%{top:85px;}
+100%{top:150px;}
+
+
+to {transform: translateY(10px);
+ 
+}
+
+
