@@ -1,0 +1,85 @@
+body {
+	background-color: green;
+	margin: 0;
+	padding: 0;
+}
+
+.sky {
+	background: lightblue;
+	height: 400px;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+}
+.mushroom {
+	background-image: url('../images/mushroom.png');
+	width: 84px;
+	height: 84px;
+	position: relative;
+	left: 50%;
+	margin-left: -45px;
+	top: 230px;
+	animation: mymove 8s;
+	animation-timing-function: ease;
+}
+@keyframes mymove {
+    0%   {bottom: 0px;}
+    50%   {bottom: 0px;}
+    100% {top: 140px;}
+}
+
+.mario {
+	background-image: url('../images/mario.png') !important;
+	width: 150px;
+	height: 200px;
+	position: relative;
+	margin-top: 30px;	
+    animation-name: mariorun;
+    animation-duration: 7s;
+}
+@keyframes mariorun {
+    0%   {left:0px;}
+    50% {left:80%; bottom: 140px;}
+    75% {top: 0px;}
+    100%  {left:1200px;}
+}
+
+.qmark {
+	background-image: url('../images/qmark.png');
+	width: 140px;
+	height: 140px;
+	margin: 130px auto;
+	position: relative;
+	z-index: 10;
+	animation-name: qmark;
+    animation-duration: 4s;
+}
+@keyframes qmark {
+    0%   {left:0px;}
+    99% {bottom:10px;}
+    100% {bottom:0px;}
+}
+
+.earth {
+	background-color: brown;
+	width: 100%;
+	height: 200px;
+}
+
+/*.mario {
+	width: 100px;
+    height: 100px;
+    background-image: ('.images/mario.gif');
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0
+    animation-name: example;
+    animation-duration: 4s;  
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}*/

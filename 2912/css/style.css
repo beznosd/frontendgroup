@@ -1,0 +1,131 @@
+
+/* tooltiptop */
+
+.tooltiptop {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 100px;
+     /* If you want dots under the hoverable text */
+}
+
+/* tooltiptop text */
+.tooltiptop .tooltiptexttop {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltiptop text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    left: -15px;
+    top: -40px;
+    margin-right: 10px;
+}
+
+/* Show the tooltiptop text when you mouse over the tooltiptop container */
+.tooltiptop:hover .tooltiptexttop {
+    visibility: visible;
+}
+/* tooltipleft */
+.tooltipleft {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 100px;
+     /* If you want dots under the hoverable text */
+}
+
+/* tooltipleft text */
+.tooltipleft .tooltiptextleft {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltiptop text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    left: -140px;
+    top: -5px;
+}
+
+/* Show the tooltiptop text when you mouse over the tooltiptop container */
+.tooltipleft:hover .tooltiptextleft {
+    visibility: visible;
+}
+
+.tooltipright {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 100px;
+     /* If you want dots under the hoverable text */
+}
+
+/* tooltipright text */
+.tooltipright .tooltiptextright {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltipright text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    left: 120px;
+    top: -5px;
+}
+
+/* Show the tooltiptop text when you mouse over the tooltiptop container */
+.tooltipright:hover .tooltiptextright {
+    visibility: visible;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 100px auto;
+}
+
+.tooltiptop .tooltiptexttop::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltiptop */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltipleft .tooltiptextleft::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.tooltipright .tooltiptextright::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
