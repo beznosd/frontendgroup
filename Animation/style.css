@@ -1,0 +1,292 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+.sun {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+	background: rgb(204,153,0);
+	background: radial-gradient(rgb(204,153,0) 22%, rgb(255,219,112) 100%);
+	box-shadow:0 0 50px #c90;
+	box-sizing: border-box;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	
+}
+
+.circle1 {
+	position: absolute;
+	top: 275px;
+	left: 275px;
+	 width: 180px;
+   height: 180px;
+   -moz-border-radius: 90px;
+   -webkit-border-radius: 90px;
+   border-radius: 90px;
+   border: 2px solid #00536e;
+  animation: rotate 22s linear infinite;
+
+}
+
+.circle2 {
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	 width: 230px;
+   height: 230px;
+   -moz-border-radius: 115px;
+   -webkit-border-radius: 115px;
+   border-radius: 115px;
+   border: 2px solid #00536e;
+  animation: rotate 56s linear infinite;
+}
+
+.circle3 {
+	position: absolute;
+	top: 225px;
+	left: 225px;
+	 width: 280px;
+   height: 280px;
+   -moz-border-radius: 140px;
+   -webkit-border-radius: 140px;
+   border-radius: 140px;
+   border: 2px solid #00536e;
+  animation: rotate 32s linear infinite;
+}
+
+.circle4 {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	 width: 330px;
+   height: 330px;
+   -moz-border-radius: 165px;
+   -webkit-border-radius: 165px;
+   border-radius: 165px;
+   border: 2px solid #00536e;
+  animation: rotate 91s linear infinite;
+}
+
+.circle5 {
+	position: absolute;
+	top: 175px;
+	left: 175px;
+	 width: 380px;
+   height: 380px;
+   -moz-border-radius: 190px;
+   -webkit-border-radius: 190px;
+   border-radius: 190px;
+   border: 2px solid #00536e;
+  animation: rotate 72s linear infinite;
+}
+
+.circle6 {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	 width: 430px;
+   height: 430px;
+   -moz-border-radius: 215px;
+   -webkit-border-radius: 215px;
+   border-radius: 215px;
+   border: 2px solid #00536e;
+   animation: rotate 172s linear infinite;
+
+}
+
+.circle7 {
+	position: absolute;
+	top: 125px;
+	left: 125px;
+	 width: 480px;
+   height: 480px;
+   -moz-border-radius: 240px;
+   -webkit-border-radius: 240px;
+   border-radius: 240px;
+   border: 2px solid #00536e;
+   animation: rotate 62s linear infinite;
+}
+
+.circle8 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	 width: 530px;
+   height: 530px;
+   -moz-border-radius: 265px;
+   -webkit-border-radius: 265px;
+   border-radius: 265px;
+   border: 2px solid #00536e;
+  animation: rotate 52s linear infinite;
+}
+
+.circle9 {
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	 width: 580px;
+   height: 580px;
+   -moz-border-radius: 290px;
+   -webkit-border-radius: 290px;
+   border-radius: 290px;
+   border: 2px solid #00536e;
+   animation: rotate 143s linear infinite;
+}
+
+.circle10 {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	 width: 630px;
+   height: 630px;
+   -moz-border-radius: 315px;
+   -webkit-border-radius: 315px;
+   border-radius: 315px;
+   border: 2px solid #00536e;
+   animation: rotate 84s linear infinite;
+}
+
+.circle11 {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 680px;
+  height: 680px;
+  -moz-border-radius: 340px;
+  -webkit-border-radius: 340px;
+  border-radius: 340px;
+  border: 2px solid #00536e;
+  animation: rotate 43s linear infinite;
+}
+
+.circle12 {
+	position: relative;
+	width: 730px;
+  height: 730px;
+  -moz-border-radius: 365px;
+  -webkit-border-radius: 365px;
+  border-radius: 365px;
+  border: 2px solid #00536e;
+  animation: rotate 122s linear infinite;
+}
+
+/*Planet*/
+
+.planet1 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png);
+	position: absolute;
+	top: 77px;
+	right: -15px;
+}
+
+.planet2 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -26px 0;
+	position: absolute;
+	top: 102px;
+	right: -14px;
+}
+
+.planet3 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -50px 0;
+	position: absolute;
+	top: 127px;
+	right: -14px;
+}
+
+.planet4 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -77px 0;
+	position: absolute;
+	top: 152px;
+	right: -14px;
+}
+
+.planet5 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -105px 0;
+	position: absolute;
+	top: 177px;
+	right: -14px;
+}
+
+.planet6 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -130px 0;
+	position: absolute;
+	top: 202px;
+	right: -14px;
+}
+
+.planet7 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -155px 0;
+	position: absolute;
+	top: 227px;
+	right: -14px;
+}
+
+.planet8 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -182px 0;
+	position: absolute;
+	top: 252px;
+	right: -14px;
+}
+
+.planet9 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -208px 0;
+	position: absolute;
+	top: 277px;
+	right: -14px;
+}
+
+.planet10 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -234px 0;
+	position: absolute;
+	top: 302px;
+	right: -14px;
+}
+
+.planet11 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -260px 0;
+	position: absolute;
+	top: 327px;
+	right: -14px;
+}
+
+.planet12 {
+	width: 26px;
+	height: 26px;
+	background: url(planets.png) -286px 0;
+	position: absolute;
+	top: 352px;
+	right: -14px;
+}
+
+
+
+
+@keyframes rotate { 100% { transform:rotate(360deg); } }
