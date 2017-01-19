@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+.sky {
+	background-color: #75bbfd;
+	height: 410px;
+	width: 100%;
+}
+
+.star_death {
+	background: url(../image/deathstar.ico) no-repeat;
+	height: 400px;
+	width: 400px;
+	position: relative;
+	left: 200px;
+	top: 50px;
+	animation: star 4s linear infinite;
+	animation-direction: alternate;
+}
+@keyframes star {
+	from {
+		left: 200px;
+	}
+	to {
+		left: 933px;
+	}
+}
+
+.ground {
+	background-color: #AA7047;
+	height: 450px;
+	width: 100%;
+}	
+
+.AT-AT {
+	position: relative;
+	background: url(../image/AT-AT.png) no-repeat;
+	height: 390px;
+	width: 400px;
+	bottom: -44px;
+	left: 10px;
+}
+
+.droid {
+	position: relative;
+	background: url(../image/2.png) no-repeat;
+	height: 250px;
+	width: 250px;
+	left: 387px;
+	bottom: 190px;
+	margin-bottom: 0px;
+	animation: go 5s linear infinite;
+	animation-direction: reverse;
+}
+@keyframes go {
+	from {
+    left: 400px; 
+  }
+  to { 
+    left: 1033px; 
+  }  
+}
+
+i {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  bottom: 61px;
+  background: red;
+  animation: move 2s linear infinite;
+}
+
+@keyframes move {
+  from {
+    left: 400px; 
+  }
+  to { 
+    left: 1333px; 
+  }  
+}
