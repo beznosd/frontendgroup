@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media</title>
+  <style>
+
+    .content {
+      padding: 20px;
+      background: red;
+      color: white;
+      margin: 50px;
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .content-1 {
+      background: red;
+    }
+
+    .content-2 {
+      background: blue;
+    }
+
+    .content-3 {
+      background: green;
+    }
+
+    /* показывать при разрешении больше 975px, а при меньшем скрывать */
+
+    @media screen and (max-width: 975px){
+      .content-1 {
+        display: none;
+      }
+    }
+
+
+    /* показывать при разрешении меньше 975px, а при большем скрывать */
+
+    @media screen and (min-width: 975px){
+      .content-2 {
+        display: none;
+      }
+    }
+
+
+    /* от такого до такого скрывать */
+
+    @media screen and (min-width: 1000px) and (max-width: 1200px){
+      .content-3{
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content content-1">
+    (max-width: 975px)
+  </div>
+  <div class="content content-2">
+    (min-width: 975px)
+  </div>
+  <div class="content content-3">
+    (min-width: 1000px) and (max-width: 1200px)
+  </div>
+</body>
+</html>

@@ -1,5 +1,6 @@
-# Новые примеры в папке css3
+# Добавлены папки media-queries-grid-examples и sticky_footer
 
 Добавлены:
-* Полностью сверстанный макет GoodInc
-* Примеры по анимациям и переходам
+* Пример с *grid* в папке media-queries-grid-examples
+* Пример с *медиазапросами* в папке media-queries-grid-examples
+* Пример с *приклеенным к низу футером* в папке sticky_footer
