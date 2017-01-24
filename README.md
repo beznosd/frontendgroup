@@ -1,6 +1,5 @@
-# Добавлены папки media-queries-grid-examples и sticky_footer
+# Добавлены папки grid и viewport
 
 Добавлены:
-* Пример с *grid* в папке media-queries-grid-examples
-* Пример с *медиазапросами* в папке media-queries-grid-examples
-* Пример с *приклеенным к низу футером* в папке sticky_footer
+* Пример с решенным задание в папке *grid*
+* Пример с viewport sized typography (отзывчивый текст) в папке *viewport*
