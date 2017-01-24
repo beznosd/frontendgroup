@@ -1,0 +1,221 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.border1{
+	border: 1px solid #e67171;
+	line-height: 7px;
+}
+
+.border1a{
+	padding: 5px;
+}
+
+.border2{
+    border: 2px solid #e67171;
+	margin-bottom: 40px;
+}
+		/*-- Home Company Contacts--*/
+.border3{
+	border: 3px solid #a9d9e4;
+	margin: 7px 10px;
+	height: 50px;
+}
+
+.border3a {
+	line-height: 3;
+}
+
+.border3a a{
+	padding: 13px 15px;
+}
+/*-END- Home Company Contacts-END-*/
+
+ /*Article title-*/
+.border4{
+	border: 3px solid #a9d9e4;
+	height: 150px;
+	margin: -7px 10px;
+}
+.border5{
+	border: 1px solid #ef928b;
+	height: 150px;
+	width: 355px;
+	-moz-box-sizing: border-box;
+}
+
+.nblock{
+	height: 150px;
+}
+
+.text{
+	padding: 10px 10px;
+}
+
+.text1{
+	padding: 0px 10px;
+}
+
+/*-END-Article title-END*/
+
+
+/*-Image*/
+.newblock{
+	border: 2px solid #a9d9e4;
+	height: 200px;
+	margin: 6px 10px;
+}
+
+.img{
+	background-image: url(images/top-image1.jpg);
+	background-size: cover;
+	height: 150px;
+	width: 70%;
+	margin: 10px auto;
+	position: relative;
+}
+
+.img1{
+	background-image: url(images/side-img.jpg);
+	background-size: cover;
+	height: 150px;
+	width: 70%;
+	margin: 10px auto;
+	position: relative;
+}
+
+.img2{
+	background-image: url(images/yummy_lunch-wallpaper-2880x1620.jpg);
+	background-size: cover;
+	height: 150px;
+	width: 70%;
+	margin: 10px auto;
+	position: relative;
+}
+
+.img p{
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+
+.img1 p{
+	position: absolute;
+	left: 50px;
+	top: 150px;
+}
+
+.img2 p{
+	position: absolute;
+	left: 50px;
+	top: 150px;
+}
+
+.new{
+	height: 200px;
+}
+
+.new1{
+	height: 200px;
+}
+
+.new2{
+	height: 200px;
+}
+
+/*-END-Image-END-*/
+ 
+ .name{
+ 	text-align: center;
+	margin-top: 30px;
+	position: relative;
+	top: 25px;
+ }
+
+/*----Media-----*/
+[class*="col-"] {
+    float: left;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 960px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+@media screen and (max-width: 960px){
+	.col-1-m {width: 8.33%;}
+	.col-2-m {width: 16.66%;}
+	.col-3-m {width: 25%;}
+	.col-4-m {width: 33.33%;}
+	.col-5-m {width: 41.66%;}
+	.col-6-m {width: 50%;}
+	.col-7-m {width: 58.33%;}
+	.col-8-m {width: 66.66%;}
+	.col-9-m {width: 75%;}
+	.col-10-m {width: 83.33%;}
+	.col-11-m {width: 91.66%;}
+	.col-12-m {width: 100%;}
+}
+
+
+@media screen and (max-width: 960px) {
+	
+	.border5{
+		display: none;
+	}
+	.nblock{
+		width: 100%;
+	}
+	
+	.img {
+		background-image: url(images/b1e8_full.jpg);
+	}
+	.img1{
+		background-image: url(images/beetle_2-wallpaper-3554x1999.jpg);
+	}
+
+	.img2{
+		background-image: url(images/PU4D1FC8S8k.jpg);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.border5{
+		display: none;
+	}
+	.nblock{
+		width: 100%;
+	}
+	
+	.img {
+		background-image: url(images/d3df12c_full.jpg);
+
+	}
+	.img1{
+		background-image: url(images/ZF6rX2xmf2g.jpg);
+	}
+
+	.img2{
+		background-image: url(images/-Chevrolet-Camaro-SS.jpg);
+	}
+
+	.new, .new1, .new2 {
+		clear: both;
+		width: 100%;
+	}
+}
