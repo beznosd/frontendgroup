@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+.grass {
+	height: 242px;
+	width: 100%;
+	background: green;
+	margin: 0;
+}
+
+img {
+	transform: rotate(180deg);
+	width: 10%;
+	position: relative;
+}
+
+.road {
+	height: 210px;
+	width: 100%;
+	margin: 0;
+	background: url(../road.jpg) ;
+}
+
+.car1 {
+	animation-name: mercedes;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	top: 10%;
+	left: -20%
+}
+
+.car2 {
+	animation-name: ferrari;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	top: 55%;
+	left: -40%;
+}
+
+.police {
+	animation-name: ferrari;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-delay: 4s;
+	top: 30%;
+	left: -40%;
+	transform: rotate(0deg);
+}
+
+@keyframes mercedes {
+	0% { 
+		left: -20%;
+	}
+	
+	100% {
+		left:140%;
+	}
+}
+
+@keyframes police {
+	0% { 
+		left: -20%;
+	}
+	
+	100% {
+		left:140%;
+	}
+}
+
+@keyframes ferrari {
+	0% { 
+		left: -40%;
+	}
+	
+	100% {
+		left:140%;
+	}
+}
