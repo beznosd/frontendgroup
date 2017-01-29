@@ -141,12 +141,12 @@ nav a {
 .pictures {
 	float: left;
 	border: 1px solid red;
-	padding: 2% 7%;
+	padding: 2%;
 	width: 33.33%;
 }
 
 [class*="image-"] {
-	background-size: cover;
+	background-size: 100% auto;
 	height: 10em;
 }
 
