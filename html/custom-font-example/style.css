@@ -1,9 +1,0 @@
-@font-face {
-  font-family: 'Roboto-Thin';
-  src: url(roboto/Roboto-Thin.ttf);
-}
-
-p {
-  font-family: 'Roboto-Thin';
-  font-size: 50px;
-}
