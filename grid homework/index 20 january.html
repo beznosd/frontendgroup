@@ -5,51 +5,88 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="grid_style.css">
 </head>
+
 <body>
 
-	<div class="header">
-		<h1>Our site</h1>
-		<h4>Some little description</h4>
-	</div>
+		<header class="col-12">
+			<h1>Our site</h1>
+			<h4>Some little description</h4>
+		</header>
 
-	<div class="row clearfix">
-	<div class="menu">
-		<ul class="list">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Company</a></li>
-			<li><a href="#">Contacts</a></li>
-		</ul>
-	</div>
-		<div class="left_col col-4 col-m-6">
-			<h4>Header</h4>
-			<p>Some description relevant to header</p>
-			<h4>Header</h4>
-			<p>Some description relevant to header</p>
-			<h4>Header</h4>
-			<p>Some description relevant to header</p>
-		</div>
+		<main>
+			<nav class="row">
+				<a class="col-1 col-m-4" href="#">Home</a>
+				<a class="col-1 col-m-4" href="#">Company</a>
+				<a class="col-1 col-m-4" href="#">Contacts</a>
+			</nav>
 
-		<div class="right_col col-8 col-m-6">
-			<h2>Article title</h2>
-			<p>Title description</p>
-			<h2>Article title</h2>
-			<p>Title description</p>
-		</div>
-		<div class="img1 col-4 ">
-			<img src="grids picture/forest.jpg">
-			<p class="desc">This is description of the picture</p>
-		</div>
+ 
+			<section class="row">
+				<aside  class="col-3">
+					<article>
+						<h3>Header</h3>
+						<p>Some description relevant to header</p>
+					</article>
+					<article>
+						<h3>Header</h3>
+						<p>Some description relevant to header</p>
+					</article>
+					<article>	
+						<h3>Header</h3>
+						<p>Some description relevant to header</p>
+					</article>
+				</aside>
+				 
+				<section class=" col-9 col-m-12">
+					
+					<article class="central-article">
+						<h2>Article title</h2>
+						<p>Title description</p>
+					</article>
+					
+					<article class="central-article">	
+						<h2>Article title</h2>
+						<p>Title description</p>
+					</article>
+				</section>
+			</section>
 
-		<div class="img2 col-4">
-			<img src="grids picture/moonlight.jpg">
-			<p class="desc">This is description of the picture</p>
-		</div>
+			<section class="row picture">
+				<figure class="col-4 col-m-4 col-s-12">
+					<div class="pic1"></div>
+					<figcaption>This is description of the picture</figcaption>
+				</figure>
+
+				<figure class="col-4 col-m-4 col-s-12">
+					<div class="pic2"></div>
+					<figcaption>This is description of the picture</figcaption>
+				</figure>
+
+				<figure class="col-4 col-m-4 col-s-12">
+					<div class="pic3"></div>
+					<figcaption>This is description of the picture</figcaption>
+				</figure>
+			</section>
+				<!--
+				<div class="img1 col-4 ">
+					<div class="image1"></div>
+					<p class="desc">This is description of the picture</p>
+				</div>
+
+				<div class="img2 col-4">
+					<div class="image2"></div>
+					<p class="desc">This is description of the picture</p>
+				</div>
+					
+				<div class="img3 col-4">
+					<div class="image3"></div>
+					<p class="desc">This is description of the picture</p>
+				</div>
+
+			</section>-->
+		</main>
 			
-		<div class="img3 col-4">
-			<img src="grids picture/sea.jpg">
-			<p class="desc">This is description of the picture</p>
-		</div>
 
-	</div>
 </body>
+
 </html>
