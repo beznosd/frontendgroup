@@ -1,0 +1,122 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+header {
+  background: #ecf0f1;
+}
+header .wrapper {
+  width: 970px;
+  height: 100%;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 0;
+  padding: 25px;
+}
+section {
+  background: #bdc3c7;
+}
+section .wrapper {
+  width: 970px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+section .wrapper .img {
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  font-size: 75px;
+  line-height: 170px;
+  vertical-align: middle;
+}
+section .wrapper .img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+section .wrapper .img1 {
+  background: #f2f2f2;
+}
+section .wrapper .img2 {
+  background: #d9d9d9;
+}
+section .wrapper .img3 {
+  background: #bfbfbf;
+}
+section .wrapper .img4 {
+  background: #a5a5a5;
+}
+section .wrapper .img5 {
+  background: #8c8c8c;
+}
+section .wrapper .img6 {
+  background: #727272;
+}
+section .wrapper .img7 {
+  background: #595959;
+}
+section .wrapper .img8 {
+  background: #404040;
+}
+section .wrapper .img9 {
+  background: #262626;
+}
+@media screen and (min-width: 993px) {
+  header .wrapper,
+  section .wrapper {
+    width: 970px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header .wrapper,
+  section .wrapper {
+    width: 750px;
+  }
+  section .wrapper .img {
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  header .wrapper,
+  section .wrapper {
+    width: 100%;
+  }
+  section .wrapper .img {
+    width: 245px;
+    height: 245px;
+    line-height: 245px;
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 540px) {
+  header .wrapper,
+  section .wrapper {
+    width: 100%;
+  }
+  section .wrapper .img {
+    width: 350px;
+    height: 350px;
+    line-height: 350px;
+    font-size: 150px;
+  }
+}
+
+
+/*# sourceMappingURL=app.css.map*/

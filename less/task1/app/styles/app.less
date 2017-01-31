@@ -1,0 +1,152 @@
+@header-bg: #ecf0f1;
+@main-bg: #bdc3c7;
+@img-bg: #f2f2f2;
+@img-m: 10px;
+
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+	background: @header-bg;
+
+
+	.wrapper {
+		width: 970px;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	h1 {
+		margin: 0;
+		padding: 25px;
+	}
+}
+
+section {
+	background: @main-bg;
+	
+	.wrapper {
+		width: 970px;
+		margin: 0 auto;
+		padding-top: 20px;
+
+		.img {
+			width: 170px;
+			height: 170px;
+			margin: @img-m;
+			float: left;
+			text-align: center;
+			font-size: 75px;
+			line-height: 170px;
+			vertical-align: middle;
+
+			&:hover {
+				opacity: 0.5;
+				cursor: pointer;
+			}
+		}
+
+		.img1 {
+			background: @img-bg;
+		}
+		
+		.img2 {
+			background: darken(@img-bg, 10%);
+		}
+
+		.img3 {
+			background: darken(@img-bg, 20%);
+		}
+
+		.img4 {
+			background: darken(@img-bg, 30%);
+		}
+
+		.img5 {
+			background: darken(@img-bg, 40%);
+		}
+
+		.img6 {
+			background: darken(@img-bg, 50%);
+		}
+
+		.img7 {
+			background: darken(@img-bg, 60%);
+		}
+
+		.img8 {
+			background: darken(@img-bg, 70%);
+		}
+
+		.img9 {
+			background: darken(@img-bg, 80%);
+		}
+
+	}
+}
+
+@media screen and (min-width: 993px){
+	header .wrapper,
+	section .wrapper {
+		width: 970px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	header .wrapper,
+	section .wrapper {
+		width: 750px;
+	}
+	section .wrapper .img {
+		width: 220px;
+		height: 220px;
+		line-height: 220px;
+		font-size: 100px;
+	}
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px){
+	header .wrapper,
+	section .wrapper {
+		width: 100%;
+	}
+	section .wrapper .img {
+		width: 245px;
+		height: 245px;
+		line-height: 245px;
+		font-size: 100px;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 540px){
+	header .wrapper,
+	section .wrapper {
+		width: 100%;
+	}
+	section .wrapper .img {
+		width: 350px;
+		height: 350px;
+		line-height: 350px;
+		font-size: 150px;
+	}
+}
+
+
+

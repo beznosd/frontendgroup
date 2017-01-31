@@ -1,0 +1,45 @@
+.btn(@br, @bg, @color, @fs, @lh, @pd){
+	border-radius: @br;
+	background: @bg;
+	color: @color;
+	font-size: @fs;
+	line-height: @lh;
+	padding: @pd;
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+
+
+.btnhover(@bg){
+	background: @bg;
+}
+
+.btn1 {
+	.btn(10px, #e0e0e0, #333, 10px, 20px, 2px 4px);
+	&:hover,
+	&:focus,
+	&:active{
+		.btnhover(#e8e8e8);
+	}
+}
+
+.btn2 {
+	.btn(10px, #3b83c0, #fff, 14px, 20px, 6px 12px);
+	&:hover,
+	&:focus,
+	&:active{
+		.btnhover(#458ac6);
+	}
+}
+
+.btn3 {
+	.btn(10px, #404245, #fff, 18px, 20px, 10px 16px);
+	&:hover,
+	&:focus,
+	&:active{
+		.btnhover(#1b1c1d);
+	}
+}
