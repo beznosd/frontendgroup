@@ -4,4 +4,4 @@
 
 Все новые примеры связанные с JS буду находится в нововой папке **javascript**
 
-В папке **javascript/conditions** пример с конструкцие if else с урока
+В папке **javascript/conditions** пример с конструкцией if else с урока
