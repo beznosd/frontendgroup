@@ -100,14 +100,14 @@
 
 // 3 вариант
 
-var even = 0; // четные
-var odd = 0; // нечетные
-for( var i = 1; i <= 10; i++ ) {
-  if (i % 2 == 0) {
-    even += i;
-    continue;
-  }
-  odd += i;
-}
-console.log('Summ odd: ' + odd);
-console.log('Summ even: ' + even);
+// var even = 0; // четные
+// var odd = 0; // нечетные
+// for( var i = 1; i <= 10; i++ ) {
+//   if (i % 2 == 0) {
+//     even += i;
+//     continue;
+//   }
+//   odd += i;
+// }
+// console.log('Summ odd: ' + odd);
+// console.log('Summ even: ' + even);
