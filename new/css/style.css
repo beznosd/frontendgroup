@@ -1,0 +1,17 @@
+body {
+  background: #ffff00;
+}
+header {
+  margin-top: calc(40px);
+  margin-left: 100px;
+}
+header a.link {
+  color: #1a237e;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

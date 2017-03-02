@@ -1,0 +1,24 @@
+@background-color: #ff0;
+@text-color: #1a237e;
+
+body{
+	background: @background-color;
+}
+
+header {
+	margin-top: calc(50px - 10px);
+	margin-left: 50px * 2;
+
+	a.link {
+		color: @text-color;
+		font-size: 2rem;
+	}
+}
+
+a{
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

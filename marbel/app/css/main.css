@@ -1,0 +1,256 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: RobotoSlab;
+  src: url('../fonts/RobotoSlab-Regular.ttf');
+}
+@font-face {
+  font-family: RobotoCondensed;
+  src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+.wrapper {
+  width: 73.125%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+body {
+  background: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.header {
+  padding: 40px 0;
+  background: #e5e5e5;
+}
+.header__wrapper {
+  width: 73.125%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__logo {
+  margin: 0;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #4e4e4e;
+}
+.top-nav {
+  float: right;
+}
+.top-nav__links {
+  margin-top: 12px;
+}
+.top-nav__link {
+  display: inline-block;
+  margin-left: 20px;
+  color: #4e4e4e;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+.top-nav__link:hover {
+  color: #1abb9c;
+}
+.top-nav__link_active {
+  color: #1abb9c;
+}
+.top-nav__burger {
+  display: none;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+.banner__img {
+  width: 100%;
+}
+.banner__line {
+  position: absolute;
+  font-weight: bold;
+}
+.banner__line1 {
+  color: #fff;
+  font-size: 2.5vw;
+  top: 30%;
+  width: 65%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.banner__line2 {
+  color: #a8a8a8;
+  font-size: 1.8vw;
+  top: 46%;
+  width: 45%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.banner__button {
+  display: block;
+  position: absolute;
+  width: 150px;
+  background: #3f8dbf;
+  color: #fff;
+  padding: 9px 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 4px solid #3678a3;
+  border-radius: 3px;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.93em;
+  font-weight: 100;
+  top: 60%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.banner__button:active {
+  background: #3678a3;
+}
+.content__service {
+  border-bottom: 2px solid #dcdcdc;
+  margin-top: 40px;
+}
+.service {
+  float: left;
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+  color: #616161;
+  font-size: 0.8em;
+  line-height: 2em;
+  padding-bottom: 40px;
+}
+.service__img {
+  transition: transform 0.5s ease-out;
+}
+.service:hover .service__img {
+  transform: rotateY(180deg) scale(1.3);
+}
+.content__l-works {
+  margin-top: 60px;
+  color: #4e4e4e;
+}
+.content__desc {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.work {
+  width: 32%;
+  float: left;
+}
+.work__img-wrapper {
+  max-height: 250px;
+}
+.work__img {
+  width: 100%;
+  transition: transform 0.6s ease-out;
+  max-height: 250px;
+}
+.work__header {
+  font-weight: bold;
+  font-size: 1.125em;
+  margin-bottom: 10px;
+}
+.work__text-o {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 0.813em;
+  color: #a8a8a8;
+}
+.work__text-n {
+  color: #5c5c5c;
+  font-size: 0.875em;
+  line-height: 1.8em;
+}
+.work:hover .work__img {
+  transform: scale(1.1);
+}
+.second-child {
+  margin: 0 2%;
+}
+.testimonial-section {
+  margin-top: 100px;
+  width: 60%;
+  padding: 100px 20% 50px;
+  background: #f0f0f0 url('../img/quote.png') no-repeat center 55px;
+  text-align: center;
+  color: #a1a1a1;
+  font-size: 1.4em;
+}
+.footer {
+  background: #1c1c1c;
+  color: #cacaca;
+}
+.footer__wrapper {
+  width: 73.125%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.footer__grid {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #353535;
+}
+.footer__cols {
+  float: left;
+  width: 23%;
+  padding: 0 1%;
+}
+.footer__copyright {
+  color: #cacaca;
+  padding: 50px 0;
+  font-size: 0.875em;
+  line-height: 1.5em;
+}
+.col__header {
+  text-transform: uppercase;
+  color: #6c6c6c;
+  font-size: 1.2em;
+}
+.col__text {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.col__date {
+  display: block;
+  margin-top: 1px;
+  font-size: 0.8em;
+}
+.col__text_margin {
+  margin-bottom: 30px;
+}
+.col__text_icon {
+  padding-left: 22px;
+}
+.col__text_icon_twitter {
+  background: url('../img/twitter.png') no-repeat left 5px;
+}
+.col__text_icon_address {
+  background: url('../img/address.png') no-repeat left 5px;
+}
+.col__text_icon_phone {
+  background: url('../img/phone.png') no-repeat left 5px;
+}
+.col__text_icon_mail {
+  background: url('../img/mail.png') no-repeat left 9px;
+}
+.col__icon {
+  height: 100%;
+}
