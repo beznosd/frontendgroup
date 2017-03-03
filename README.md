@@ -1,3 +1,3 @@
-# Новые примеры с простыми функциями
+# Добавлнеы примеры с простыми функциями с посленего урока
 
-Все функции, которые мы пытались написать на уроке находятся в файлe *javascript/last-lesson-functions-example/script.js* 
+Все функции находятся в файлe **javascript/last-lesson-functions-example/script.js**
