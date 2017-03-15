@@ -1,0 +1,112 @@
+body {
+  background: #f6f6c4;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  padding: 1em 0 0;
+  color: #f6f6f6;
+}
+
+h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+article {
+  background: #d73737;
+  height: 406px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 150px;
+  width: 100%;
+  z-index: 1;
+}
+
+.spinner-wrap {
+  width: 326px;
+  height: 326px;
+  position: relative;
+  margin: 30px auto;
+  cursor: pointer;
+}
+
+.spinner-outer {
+  width: 326px;
+  height: 326px;
+  position: absolute;
+  left: 50%;
+  margin-left: -163px;
+  background: url(../img/spinner-outer.png) center no-repeat #32302e;
+  border-radius: 50%;
+}
+
+.spinner-center {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  background: url(../img/spinner-center.png) center no-repeat;
+}
+
+.play-sprite {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -35px 0 0 -35px;
+  background: url(../img/play-sprite.png) 0px 0px no-repeat;
+}
+
+.playing .play-sprite {
+  background-position: 0px -70px;
+}
+
+@keyframes spin-outer-circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-inner-circle {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.playing .spinner-outer {
+  animation: spin-outer-circle 5s linear infinite;
+}
+
+.playing .spinner-center {
+  animation: spin-inner-circle 5s linear infinite;
+}
+
+.spinner-wrap.pulse {
+  animation: pulse 0.5s linear 1;
+}
+
+
+
+
+
