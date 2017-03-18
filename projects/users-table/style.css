@@ -1,0 +1,146 @@
+body {
+  background: #eee;
+}
+
+table {
+  width: 90%;
+  min-width: 768px;
+  margin: 20px auto;
+  text-align: left;
+  font-family: sans-serif;
+  border-collapse: collapse;
+  background: #eee;
+}
+
+table tr {
+  background: #eee;
+}
+
+table tr:nth-child(4n-2) {
+  background: #ccc;
+}
+
+table td {
+  width: 19%;
+  padding: 0;
+}
+
+table td.photo-col {
+  padding-left: 15px;
+  padding-right: 5px;
+  width: 8%;
+}
+
+table td.sign-col {
+  text-align: right;
+  padding-right: 50px;
+  padding-left: 5px;
+  width: 17%;
+}
+
+table td i.fa {
+  color: #676767;
+  cursor: pointer;
+}
+
+table img.photo {
+  border: 3px solid white;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+table img.small-photo {
+  height: 60px;
+}
+
+table .user-info {
+  padding: 20px 8%;
+  text-align: left;
+  display: none;
+}
+
+table .user-info:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+table .user-info ul {
+  list-style-type: none;
+  padding-left: 0;
+  float: left;
+  margin-right: 5%;
+}
+
+table .user-info ul.last {
+  margin-right: 5px;
+}
+
+table .user-info ul li {
+  margin: 8px 0;
+}
+
+table .user-info .large-photo-container {
+  padding-top: 20px;
+  text-align: right;
+}
+
+.loader {
+  text-align: center;
+}
+
+.loader img {
+  height: 100px;
+}
+
+.chart-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.popup {
+  position: fixed;
+  width: 410px;
+  height: 420px;
+  top: 100px;
+  background: white;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 20;
+  display: none;
+}
+
+.dimmer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .4);
+  z-index: 10;
+  display: none;
+}
+
+.manage-elements {
+  width: 90%;
+  min-width: 768px;
+  margin: 20px auto;
+}
+
+.manage-elements:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+button {
+  float: left;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input {
+  float: right;
+  padding: 8px 12px;
+}

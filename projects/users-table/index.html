@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="manage-elements">
+    <button class="show-chart">
+      Show chart
+    </button>
+    <input class="search-input" type="text" placeholder="Search by name ...">
+  </div>
+
+  <div class="popup">
+    <div class="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+
+  <div class="dimmer"></div>
+  
+  <table>
+    <tr>
+      <th></th>
+      <th>First</th>
+      <th>Last</th>
+      <th>Username</th>
+      <th>Phone</th>
+      <th>Location</th>
+      <th></th>
+    </tr>
+  </table>
+
+  <div class="loader">
+    <img src="loader.gif" alt="loading users...">
+  </div>
+
+  <script id="row" type="text/x-handlebars-template">
+    <tr>
+      <td class="photo-col">
+        <img class="photo small-photo" src="{{picture.medium}}" alt="user photo">
+      </td>
+      <td>{{name.first}}</td>
+      <td>{{name.last}}</td>
+      <td>{{login.username}}</td>
+      <td>{{cell}}</td>
+      <td>{{location.state}}</td>
+      <td class="sign-col">
+        <i class="sign fa fa-plus fa-2x" aria-hidden="true"></i>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">
+        <div class="user-info">
+          <ul>
+            <li><b>Username</b> {{login.username}}</li>
+            <li><b>Registered</b> {{login.username}}</li>
+            <li><b>email</b> {{email}}</li>
+          </ul>
+          <ul>
+            <li><b>Address</b> {{location.street}}</li>
+            <li><b>City</b> {{location.city}}</li>
+            <li><b>Zip Code</b> {{location.postcode}}</li>
+          </ul>
+          <ul class="last">
+            <li><b>Birthday</b> {{login.username}}</li>
+            <li><b>Phone</b> {{cell}}</li>
+            <li><b>Cell</b> {{cell}}</li>
+          </ul>
+          <div class="large-photo-container">
+            <img class="photo" src="{{picture.large}}" alt="user photo">
+          </div>
+        </div>
+      </td>
+    </tr>
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
