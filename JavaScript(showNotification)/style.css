@@ -5,13 +5,27 @@ html,body {
 	height: 100%;
 	box-sizing: border-box;
 	font-size: 16px;
-	font-family: sans-serif;font-weight: 500;
+	font-family: sans-serif;
+	font-weight: 500;
+
 	
 }
+
 section {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	position: relative;
+}
+
+div {
+	background-color: red;
+	width: 100%;
+	height: 40px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+
 }
 
 .header {
@@ -22,10 +36,7 @@ section {
 	padding: 10px 0;
 	font-size: 1.2em;
 	line-height: 40px;
-	display:block;
 	position: absolute;
-	top: 0;
-
 }
 
 .footer {
@@ -38,5 +49,4 @@ section {
 	font-size: 1.2em;
 	line-height: 40px;
 	position: absolute;
-	bottom: 0;
 }
