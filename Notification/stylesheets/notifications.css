@@ -1,0 +1,204 @@
+/*!============================
+============Reset==============
+==============================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+
+
+/*!=======General Notification Styles=======*/
+[class*=notification] {
+  display: inline-block;
+  -webkit-perspective: 200px;
+  -moz-perspective: 200px;
+  -ms-perspective: 200px;
+  -o-perspective: 200px;
+  perspective: 200px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: -.02em;
+  text-decoration: none;
+  position: relative;
+  background: gray;
+  min-width: 20rem;
+  max-width: 40rem;
+}
+[class*=notification] p, [class*=notification] h1 {
+  margin-left: 1rem;
+  font-family: sans-serif;
+}
+[class*=notification] a {
+  color: white;
+  opacity: .8;
+}
+[class*=notification] h1 {
+  font-size: 1.2rem;
+  margin-bottom: .4rem;
+  position: relative;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+[class*=notification] h1:before {
+  font-family: entypo;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 0rem;
+  bottom: 0;
+}
+[class*=notification] img {
+  float: left;
+  width: 8rem;
+  display: block;
+  margin-right: 1rem;
+}
+[class*=notification] p {
+  font-weight: normal;
+  padding-left: 0;
+  padding-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.45em;
+  letter-spacing: normal;
+}
+[class*=notification]:hover:before, [class*=notification]:hover:after, [class*=notification]:focus:before, [class*=notification]:focus:after {
+  width: 1.2em;
+}
+[class*=notification]:after {
+  position: absolute;
+  top: 0em;
+  right: 0;
+}
+[class*=notification]:before {
+  position: absolute;
+  top: 0em;
+  left: 0;
+}
+
+/*!=======Individual notification Types=======*/
+
+
+
+.notification-success {
+  background: #98de61;
+  border: 1px solid #8dda50;
+  position: absolute;
+  position: fixed; 
+  left: 250px;
+}
+.notification-success h1:before {
+  color: #70c92a;
+}
+.notification-success .close {
+  background: #98de61;
+}
+.notification-success .close:after {
+  color: #c1eba0;
+}
+.notification-success .close:hover, .notification-success .close:focus {
+  background: #82d73f;
+}
+.notification-success .close:active {
+  background: white;
+}
+.notification-success .close:active:after {
+  color: #98de61;
+}
+.notification-success h1:before {
+  content: '\2713';
+}
+
+
+
+.notification-error {
+  background: #fa706d;
+  border: 1px solid #f95d59;
+}
+.notification-error h1:before {
+  color: #f72823;
+}
+.notification-error .close {
+  background: #fa706d;
+}
+.notification-error .close:after {
+  color: #fdb8b7;
+}
+.notification-error .close:hover, .notification-error .close:focus {
+  background: #f94946;
+}
+.notification-error .close:active {
+  background: white;
+}
+.notification-error .close:active:after {
+  color: #fa706d;
+}
+.notification-error h1:before {
+  content: '\274C';
+}
+
+
+
+
+
+/*!=======Close Button=======*/
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+}
+.close:hover:after, .close:focus:after {
+  color: white;
+}
+
+
+/*!=======Positions=======*/
+.n-container {
+  position: fixed;
+  background: transparent;
+  padding: 0;
+  width: 40%;
+  z-index: 100;
+}
+
+.topright {
+  top: 1rem;
+  right: 0;
+}
+
+.bottomright {
+  bottom: 1rem;
+  right: 0;
+}
+
+.topleft {
+  left: 0;
+  top: 1rem;
+}
+
+.bottomleft {
+  left: 0;
+  bottom: 1rem;
+}
+
+
