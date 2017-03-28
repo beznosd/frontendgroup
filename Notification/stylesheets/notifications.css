@@ -101,6 +101,7 @@ html {
   position: absolute;
   position: fixed; 
   left: 250px;
+  top: -250px;
 }
 .notification-success h1:before {
   color: #70c92a;
@@ -129,6 +130,9 @@ html {
 .notification-error {
   background: #fa706d;
   border: 1px solid #f95d59;
+  position: fixed; 
+  left: 250px; 
+  bottom: -250px;
 }
 .notification-error h1:before {
   color: #f72823;

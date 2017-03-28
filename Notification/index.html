@@ -5,8 +5,19 @@
 	<title>Nitification Box</title>
 	<link rel="stylesheet" href="stylesheets/notifications.css">
 	<link rel="stylesheet" href="stylesheets/demo.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/min/notifications.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script> 
+	$(document).ready(function(){
+    	$(".success").click(function(){
+        	$(".notification-success").animate({top: '0px'});
+    	});
+    	$(".error").click(function(){
+        	$(".notification-error").animate({bottom: '0px'});
+    	});
+	});
+	</script> 
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/min/notifications.min.js"></script> -->
 </head>
 <body>
 	<!-- Top Notification -->
@@ -21,7 +32,7 @@
 	<button class="error">Error Notification</button>
 
 	<!-- Bottom Notification -->
-	<aside class="notification-error" style="position: fixed; left: 250px; bottom: 0px">
+	<aside class="notification-error">
 		<h1>Whoops! Something went wrong</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, nostrum, dolorem, et error ducimus labore minus recusandae aut consequuntur quisquam quo pariatur. Vitae qui modi magnam ex molestias et reiciendis.</p>
 		
