@@ -11,9 +11,15 @@
     	$(".success").click(function(){
         	$(".notification-success").animate({top: '0px'});
     	});
+    	setTimeout(function() {
+      		$(".notification-success").animate({top: '-1000px'});
+		}, 3000);
     	$(".error").click(function(){
         	$(".notification-error").animate({bottom: '0px'});
     	});
+    	setTimeout(function() {
+      		$(".notification-error").animate({bottom: '-1000px'});
+		}, 3000);
 	});
 	</script> 
 	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
