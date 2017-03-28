@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	var showNotification = function(settings) {
 		if (settings.type === 'success') { 
-   			granded.fadeIn(this).delay(settings.time).fadeOut(this);
+   			granded.fadeIn(this).delay(settings.time || 5000).fadeOut(this);
    			granded.text(settings.text || 'Default');
    			if (settings.bottom === false) {
  				granded.css({"top" : 0});
@@ -19,7 +19,7 @@ $(document).ready(function(){
 				denied.css({"top" : 0});		
  			}	
  		} else if (settings.type === 'error') { 
-    			denied.fadeIn(this).delay(settings.time).fadeOut(this);
+    			denied.fadeIn(this).delay(settings.time || 5000).fadeOut(this);
     			denied.text(settings.text || 'Default');
     			if (settings.bottom === false) {
  				granded.css({"bottom" : 0});
@@ -43,7 +43,7 @@ $(document).ready(function(){
 			type: 'success',
 			text: 'Some message',
 			bottom: false,
-			time: 1000
+			// time: 1000
 		});
 	});
 
