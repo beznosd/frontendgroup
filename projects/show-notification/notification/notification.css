@@ -1,0 +1,16 @@
+.notification {
+  padding: 20px 15px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
