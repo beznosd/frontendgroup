@@ -17,10 +17,9 @@ function showNatification(obj) {
 		hiddenDiv.classList.add("footer");
 	}	
 
-	function myFunc() {
-		hiddenDiv.parentNode.removeChild(hiddenDiv);
-	}
-	setTimeout(myFunc.bind(obj), obj.time);
+	
+	setTimeout({hiddenDiv.parentNode.removeChild(hiddenDiv);
+	}, obj.time);
 }
 
 

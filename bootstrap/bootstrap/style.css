@@ -1,0 +1,99 @@
+// @font-face {
+//    font-family: Roboto;
+//    src: url('https://fonts.googleapis.com/css?family=Roboto');
+// }
+
+// body {
+// 	font-family: Roboto; sans-serif;
+// 	background-color: aqua;
+// 	margin: 0px;
+// 	padding: 0px;
+// 	box-sizing: border-box;
+// }
+* {
+	outline: none;
+}
+.row {
+	margin-top: 40px;
+}
+html, body, .navbar-inverse {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	border-radius: 0px;
+	font-family: Roboto, sans-serif;
+}
+.navbar-brand {
+	margin: 0px;
+	font-size: 2rem;
+}
+li a {
+	margin-top: 0px;
+}
+.navbar-right {
+	margin-top: 8px;
+}
+
+.picture {
+	background-image: url("image/second.jpg");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.navbar-text {
+	margin: 30px 0;
+	color: white;
+	text-align: left; 
+
+}
+.hero-unit{
+	color: white;
+	margin-bottom: 40px;
+}
+.navbar-text h1 {
+	font-size: 60px;
+}
+.navbar-text button {
+	font-size: 1.7rem;
+}
+.row {
+	margin-top: 30px 0 15px 0;
+}
+.row h2 {
+	font-weight: bold;
+}
+.caption p, a {
+	// font-weight: 600;
+	margin-top: 15px;
+	font-size: 1.4rem;
+}
+.blockquote {
+	font-size: 1.9rem;
+}
+blockquote a {
+	font-size: 1.7rem;
+	font-weight: 600;
+
+}
+.panel {
+	padding: 0px;
+
+}
+.table-condensed, .input-group {
+	box-sizing: border-box;
+	padding: 5px 15px;
+}
+form p {
+	margin: 10px 15px 0 15px;
+}
+form .btn-success {
+	margin: 11px 15px;
+	
+	display: block;
+}
+footer div {
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+	padding-top: 14px;
+}
