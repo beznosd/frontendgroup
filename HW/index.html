@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Homework</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="toggle-switch.css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		
+		<!-- Меню navbar -->
+		
+		<nav class="navbar navbar-inverse">
+			<div class="container">	
+  
+				<!-- Бренд и переключатель, который вызывает меню на мобильных устройствах -->
+				<div class="navbar-header">
+    
+					<!-- Бургер! -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+    
+					<!-- логотип (обычно содержит ссылку на главную страницу) -->
+					<a href="#" class="navbar-brand">Bootstrap template</a>
+				</div>
+				
+				<!-- Содержимое меню (коллекция навигационных ссылок, формы и др.) -->
+				<div class="collapse navbar-collapse" id="main-menu">
+      
+					<!-- Список ссылок, расположенных слева -->
+					<ul class="nav navbar-nav">
+      
+						<!--Элемент с классом active отображает ссылку подсвеченной -->
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">Статьи</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Подпункт</a></li>
+								<li><a href="#">Еще подпункт</a></li>
+								<li><a href="#">Еще что-то</a></li>
+								<li class="divider"></li>
+								<li><a href="#">И еще</a></li>
+							</ul>
+						</li>
+					</ul>
+      
+					<!-- Список ссылок, расположенный справа -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" data-toggle="modal" data-target="#login"><button type="button" class="btn btn-default">Войти</button></a></li>
+	  
+	
+						<!-- ------------------------------------------------------------ -->  
+						<div class="modal fade" id="login" tabindex="-1" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header"><button class="close" type="button" data-dismiss="modal">x</button>
+									</div>
+									<div class="modal-body">
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+												<div class="col-sm-10">
+													<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="col-sm-2 control-label">Пароль</label>
+												<div class="col-sm-10">
+													<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-sm-offset-2 col-sm-10">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox"> Запомнить
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-sm-offset-2 col-sm-10">
+													<button type="submit" class="btn btn-default">Войти</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						
+						<!-- ------------------------------------------------------------ -->  
+
+
+						<li><a href="#" data-toggle="modal" data-target="#reg"><button type="button" class="btn btn-success">Регистрация</button></a> </li>
+	  
+						
+						<!-- ------------------------------------------------------------ -->  
+						<div class="modal fade" id="reg" tabindex="-1" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header"><button class="close" type="button" data-dismiss="modal">x</button>
+									</div>
+        
+									<div class="modal-body">
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+												
+												<div class="col-sm-10">
+													<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="col-sm-2 control-label">Пароль</label>
+												<div class="col-sm-10">
+													<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="col-sm-2 control-label">Повторить пароль</label>
+												<div class="col-sm-10">
+													<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-sm-offset-2 col-sm-10">
+													<div class="checkbox">
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-sm-offset-2 col-sm-10">
+													<button type="submit" class="btn btn-default">Регистрация</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						
+						<!-- ------------------------------------------------------------ -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header>
+			<div class="container">
+				<div class="row">
+					<h1>Amazing Norway</h1>
+					<p>From its majestic mountains and famous fjords to its modern yet picturesque cities, Norway is simply one of the most beautiful countries in the world. Picture-perfect landscapes beg to be explored by foot, car, bike or boat. Whether taking in the breathtaking wonder of the northern lights or the summer sun glistening on a massive glacier, Norway is a great adventure in any season. A nation with a rich and storied past, Norway invites cultural expeditions too. Some of the best places to visit in Norway offer architectural gems in rural villages to historical artifacts in metropolitan museums.</p>
+					<p>
+						<a class="btn btn-primary">
+      						Learn more
+    					</a>
+  					</p>
+				</div>
+			</div>
+		</header> <!-- shapka -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="thumbnail">
+						<img src="img/slid1.jpg" alt="Thumbnail 1">
+						<div class="caption">
+							<h3>Thumbnail Label</h3>
+							<p id="but"><a class="btn btn-primary" href="">Learn More</a><a class="btn btn-info" href="">Learn More</a><a class="btn btn-success" href="">Learn More</a></p>
+							<p>From its majestic mountains and famous fjords to its modern yet picturesque cities, Norway is simply one of the most beautiful countries in the world. Picture-perfect landscapes beg to be explored by foot, car, bike or boat. </p>
+							<p><a href="">Learn More</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="thumbnail">
+						<img src="img/slid2.jpg" alt="Thumbnail 1">
+						<div class="caption">
+							<h3>Thumbnail Label</h3>
+							<p id="but"><a class="btn btn-primary" href="">Learn More</a><a class="btn btn-warning" href="">Learn More</a><a class="btn btn-success" href="">Learn More</a>
+							</p>
+							<p>From its majestic mountains and famous fjords to its modern yet picturesque cities, Norway is simply one of the most beautiful countries in the world. Picture-perfect landscapes beg to be explored by foot, car, bike or boat. 
+							</p>
+							<p><a href="">Learn More</a></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-12">
+					<div class="thumbnail">
+						<img src="img/slid3.jpg" alt="Thumbnail 1">
+						<div class="caption">
+							<h3>Thumbnail Label</h3>
+							<p id="but"><a class="btn btn-danger" href="">Learn More</a><a class="btn btn-info" href="">Learn More</a><a class="btn btn-success" href="">Learn More</a>
+							</p>
+							<p>From its majestic mountains and famous fjords to its modern yet picturesque cities, Norway is simply one of the most beautiful countries in the world. Picture-perfect landscapes beg to be explored by foot, car, bike or boat. 
+							</p>
+							<p><a href="">Learn More</a></p>
+						</div>
+					</div>
+				</div>
+
+
+<!-- ------------------------------------------------------------ -->
+			
+			
+			</div> <!-- kolonki -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="thumbnail myinfo">
+
+						<p>From its majestic mountains and famous fjords to its modern yet picturesque cities, Norway is simply one of the most beautiful countries in the world. Picture-perfect landscapes beg to be explored by foot, car, bike or boat.</p>
+						<p style="text-align: right;"><a href="">Learn More</a></p>
+					</div>
+				</div>
+			</div>
+
+ <!-- info -->
+			<div class="row">
+				<div class="col-md-8 col-sm-8">
+					<div class="thumbnail mynone">
+						<div class="capthead">Our prices</div>
+						<div class="captbody">
+							<p>From its majestic mountains and famous fjords to its modern yet picturesque cities, Norway is simply one of the most beautiful countries in the world. Picture-perfect landscapes beg to be explored by foot, car, bike or boat. 
+							</p>
+							
+							<table class="table">
+								
+								<thead>
+									<tr>
+										<th>Trip Duration</th>
+										<th>One week</th>
+										<th>Two weeks</th>
+										<th>Month</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><b>3* hotel</b></td>
+										<td>$300</td>
+										<td>$500</td>
+										<td>$990</td>
+									</tr>
+									<tr>
+										<td><b>4* hotel</b></td>
+										<td>$450</td>
+										<td>$700</td>
+										<td>$1200</td>
+									</tr>
+									<tr>
+										<td><b>5* hotel</b></td>
+										<td>$600</td>
+										<td>$1000</td>
+										<td>$1700</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="thumbnail mynone">
+						<div class="capthead">Provide</div>
+						<div class="captbody1">
+							<div class="form-group">
+								<label>Your name</label>
+								<div class="input-group">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+									<input type="text" class="form-control" placeholder="Type your name here"></div>
+							</div>
+							<div class="form-group">
+								<label>Email address</label>
+								<div class="input-group">
+									<span class="input-group-addon">@</span>
+									<input type="text" class="form-control" placeholder="Type your name here"></div>
+							</div>
+							<div class="form-group">
+								<label>Your contact phone</label>
+								<div class="input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-phone">
+										</span>
+									</span>
+									<input type="text" class="form-control" placeholder="Type your name here">
+								</div>
+							</div>
+							<a class="btn btn-success btn-block" href="">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- table -->	
+
+		
+		<footer class="navbar-bottom">Ilya</footer>	
+	
+
+<!-- JavaScript -->
+		<script src="bootstrap/js/jquery-1.10.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script>
+		$(document).ready(function()
+		{
+			$links=$('a');
+
+			$links.on('click', function(e){
+				e.preventDefault();
+			})
+		});
+		</script>
+	</body>
+</html>
+

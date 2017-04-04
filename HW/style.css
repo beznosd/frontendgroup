@@ -1,0 +1,107 @@
+body {
+	font-family: 'Comic Sans MS', cursive;
+	font-weight: 300;
+}
+
+header {
+	background-image: url(img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-size: 17px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+header .row {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0px;
+}
+
+.navbar-right li a {
+	padding-top: 7px;
+    padding-bottom: 7px;
+	padding-right: 7px;
+	padding-left: 0px;
+	outline: none;
+	text-decoration: none;
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+#but a {
+	font-size: 10px;
+	margin-right: 5px;
+	padding: 3px 6px;
+}
+.caption p {
+	text-align: justify;
+}
+
+.myinfo {
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: 4px solid #ddd;
+}
+.myinfo p {
+	padding: 10px;
+}
+.mynone{
+	padding: 0px;
+	border: 1px solid #337ab7;
+}
+.mynone .capthead{
+	background-color: #337ab7;
+	color: white;
+	padding: 12px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.mynone .captbody{
+	padding: 12px;
+	text-align: justify;
+	margin-top: 18px;
+}
+.mynone .captbody p {
+	color: grey;
+}
+.table th {
+	
+}
+
+.mynone .captbody1{
+	padding: 12px;
+	text-align: justify;
+}
+
+footer {
+	background-color: black;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+}
