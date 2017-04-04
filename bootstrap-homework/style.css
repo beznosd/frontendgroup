@@ -1,0 +1,26 @@
+.navbar {
+	margin-bottom: 0;
+	position: relative;
+}
+.navbar_buttons {
+	float: right;
+	line-height: 50px;
+}
+.header__img {
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.btn_contact {
+	margin: 19px 0;
+}
+.footer {
+	background-color: #222;
+	color: #fff;
+	line-height: 45px;
+}
+.panel-primary {
+	height: 310px;
+}

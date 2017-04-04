@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Homework</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="navbar_buttons">
+        		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#logIn">Log in</button>
+
+							<div class="modal fade" id="logIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  							<div class="modal-dialog">
+    							<div class="modal-content">
+      							<div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        							<h4 class="modal-title" id="myModalLabel">Log In</h4>
+      							</div>
+      							<div class="modal-body">
+        							
+											<form role="form">
+  											<div class="form-group">
+    											<label for="email">Email or Username</label>
+    											<input type="email" class="form-control" id="emOrUser" placeholder="Enter email or username">
+  											</div>
+  											<div class="form-group">
+    											<label for="password">Password</label>
+    											<input type="password" class="form-control" id="pass" placeholder="Password">
+  											</div>
+											</form>
+
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        							<button type="button" class="btn btn-primary">Log In</button>
+      							</div>	
+    							</div>
+  							</div>
+							</div>
+
+        		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#signIn">Sign up</button>
+
+							<div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  							<div class="modal-dialog">
+    							<div class="modal-content">
+      							<div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        							<h4 class="modal-title" id="myModalLabel">Sign In</h4>
+      							</div>
+      							<div class="modal-body">
+        							
+											<form role="form">
+  											<div class="form-group">
+    											<label for="email">Email</label>
+    											<input type="email" class="form-control" id="email" placeholder="Enter email">
+  											</div>
+  											<div class="form-group">
+    											<label for="name">Username</label>
+    											<input type="name" class="form-control" id="username" placeholder="Enter username">
+  											</div>
+  											<div class="form-group">
+    											<label for="password">Password</label>
+    											<input type="password" class="form-control" id="pass" placeholder="Password">
+  											</div>
+  											<div class="form-group">
+    											<label for="password">Confirm Password</label>
+    											<input type="password" class="form-control" id="confPass" placeholder="Password">
+  											</div>
+											</form>
+
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        							<button type="button" class="btn btn-primary">Sign In</button>
+      							</div>	
+    							</div>
+  							</div>
+							</div>
+
+        	</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header__img" style="background-image: url(img/header.jpg);">
+    	<div class="container">
+    		<h1 class="header_desc">Amazing Norway</h1>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero mollitia inventore autem corrupti aut. Aut explicabo, distinctio reiciendis libero unde quod hic fuga quibusdam, quae, amet repellat eum soluta perferendis quasi saepe expedita rem est a commodi. Necessitatibus veniam nam sapiente minima magni laudantium quaerat, eos quisquam. Obcaecati, consequatur, dicta?</p>
+    		<button type="button" class="btn btn-primary">Learn more</button>
+    	</div>
+    </div>
+
+    <div class="container">	
+    	<div class="row">
+    		<div class="col-md-4 col-sm-6">
+    			<div class="thumbnail">
+    				<img src="img/img1.jpg" alt="img1">
+    				<div class="caption">
+    					<h3>Beautifull vilage</h3>
+    					<span class="label label-primary">mountain</span>
+    					<span class="label label-info">lakes</span>
+    					<span class="label label-success">spring</span>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla commodi in, quos assumenda cupiditate, error, corporis quidem quisquam rem odit necessitatibus eligendi non fuga reprehenderit repellendus expedita officiis inventore labore. Asperiores, at unde quam nam!</p>
+    					<a href="#">Read more about this place</a>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4 col-sm-6">
+    			<div class="thumbnail">
+    				<img src="img/img2.jpg" alt="img2">
+    				<div class="caption">
+    					<h3>Spring Valley</h3>
+    					<span class="label label-primary">mountain</span>
+    					<span class="label label-warning">sun</span>
+    					<span class="label label-success">spring</span>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla commodi in, quos assumenda cupiditate, error, corporis quidem quisquam rem odit necessitatibus eligendi non fuga reprehenderit repellendus expedita officiis inventore labore. Asperiores, at unde quam nam!</p>
+    					<a href="#">Read more about this place</a>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4 col-sm-12">
+    			<div class="thumbnail">
+    				<img src="img/img3.jpg" alt="img3">
+    				<div class="caption">
+    					<h3>Sunrise in mountain</h3>
+    					<span class="label label-danger">red-house</span>
+    					<span class="label label-info">sea</span>
+    					<span class="label label-success">spring</span>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla commodi in, quos assumenda cupiditate, error, corporis quidem quisquam rem odit necessitatibus eligendi non fuga reprehenderit repellendus expedita officiis inventore labore. Asperiores, at unde quam nam!</p>
+    					<a href="#">Read more about this place</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<div class="row">
+    		<blockquote>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maiores qui a, soluta eaque dicta. Mollitia ab aspernatur perferendis, totam quisquam autem accusantium, modi voluptatibus libero accusamus repudiandae iusto saepe dolore necessitatibus!</p>
+    			<p class="text-right">
+    				<a href="#">
+    					<cite title="Source Title">Magnus Carlsen</cite>
+    				</a>
+    			</p>
+    		</blockquote>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-8 col-sm-8">
+    			<div class="panel panel-primary">
+    				<div class="panel-heading">Our prices</div>
+    				<div class="panel-body">
+    					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iure suscipit excepturi, vitae laboriosam dolore dolores, odit rem maxime ratione similique minima vero iste ipsam?</p>
+
+    					<table class="table">
+    						<thead>
+    							<tr>
+    								<th>Trip duration</th>
+    								<th>One week</th>
+    								<th>Two weeks</th>
+    								<th>Month</th>
+    							</tr>
+    						</thead>
+    						<tbody>
+    							<tr>
+    								<th>3* hotel</td>
+    								<td>$300</td>
+    								<td>$500</td>
+    								<td>$990</td>
+    							</tr>
+    							<tr>
+    								<th>4* hotel</td>
+    								<td>$450</td>
+    								<td>$700</td>
+    								<td>$1200</td>
+    							</tr>
+    							<tr>
+    								<th>5* hotel</td>
+    								<td>$600</td>
+    								<td>$1000</td>
+    								<td>$1700</td>
+    							</tr>
+    						</tbody>
+    					</table>
+  					</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4 col-sm-4">
+    			<div class="panel panel-primary">
+    				<div class="panel-heading">Provide your contacts here</div>
+						<div class="container-fluid">
+							<h5>Your name</h5>
+							<div class="input-group input-group-sm">
+    							<span class="input-group-addon">
+    								<span class="glyphicon glyphicon-user"></span>
+    							</span>
+    						<input type="text" class="form-control" placeholder="Type your name here">
+    					</div>
+    					<h5>Email adress</h5>
+							<div class="input-group input-group-sm">
+    							<span class="input-group-addon">@</span>
+    						<input type="email" class="form-control" placeholder="Type your email here">
+    					</div>
+    					<h5>Your contact phone</h5>
+							<div class="input-group input-group-sm">
+    							<span class="input-group-addon">
+    								<span class="glyphicon glyphicon-phone"></span>
+    							</span>
+    						<input type="phone" class="form-control" placeholder="Type your phone here">
+    					</div>
+    					<button type="button" class="btn btn-success btn-block btn_contact">Contact me</button>
+						</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div class="footer">
+    	<p class="text-center footer_txt">&copy Norway country</p>
+    </div>
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
