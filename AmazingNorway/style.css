@@ -1,0 +1,78 @@
+.banner{
+    background: url('img/PZm77xa0kwo.jpg');
+    width: 100%;
+    height: 362px;
+}
+
+<!-- EXTRA START -->
+                    <div class="extra">
+                        <div class="price">
+                    <a href="" class="list-group-item active" style="width: 750px;">
+		              Our prices
+		              </a>
+                    <a href="" class="list-group-item " style="width: 750px;">
+		    <p class="list-group-item-text" > 
+		    	Price include all services. Please provide your contact informatiob on this page and we will contact your in a hour to provide more information about prices and details of the trip. 
+		    </p>
+                        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Trip Duration</th>
+                <th>One week</th>
+                <th>Two week</th>
+                <th>Month</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3* Hotel</td>
+                <td>$300</td>
+                <td>$500</td>
+                <td>$990</td>
+            </tr>
+            <tr>
+                <td>4* Hotel</td>
+                <td>$450</td>
+                <td>$700</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>5* Hotel</td>
+                <td>$600</td>
+                <td>$1000</td>
+                <td>$1700</td>
+            </tr>
+        </tbody>
+    </table>
+		  </a>
+                            </div>
+                 
+                    <div class="question">
+                        <a href="" class="list-group-item active" style="width: 361px;">
+		              Provide your contacts here
+		              </a>
+                    <div class="list-group-item " style="width: 361px;height: 327px;">
+                        <p>Your Name</p>
+		    <div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">
+      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                </span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+                      <p>Email address</p>
+                        <div class="input-group">
+                    <span class="input-group-addon">@</span>
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+                        <p>Your contact phone</p>
+                        <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">
+      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                </span>
+                    <input type="text" class="form-control" placeholder="Username">
+                     </div>
+                       <a class="btn btn-success" href="" title="Bootstrap 3 themes generator" style="margin-top: 20px;width: 329px;">Success</a> 
+                    </div>
+                        </div>
+                    </div>
+                    <!-- EXTRA END --> 

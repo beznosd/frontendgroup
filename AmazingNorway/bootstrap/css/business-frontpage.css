@@ -1,0 +1,84 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('https://pp.userapi.com/c636418/v636418880/5e5cd/PZm77xa0kwo.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    font-size: 64px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#footer {
+  height: 80px;
+  background-color: black;
+    text-align: center;
+}
+
+
+#wrap > .center-container {
+  padding: 50px 0 0 0;
+  margin:0;
+}
+
+#footer > .container {
+  padding-top:5px
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.center-container {
+  height:100%;
+}
+
+.center-row {
+  height:100%;
+  background-image:url('/assets/example/bg_cloud.jpg');
+  background-size:cover;
+  color:#fff;
+}
+
+.lead{
+    color: white;
+    font-size: 17px;
+}
+
+.question{
+    width: 361px;
+    height: 327px;
+    position: relative;
+    /* right: 26%; */
+    /* top: 117%; */
+}
+  
+.quotion{
+    width: 1140px;
+    height: 130px;
+    padding-top: 30px;
+}
