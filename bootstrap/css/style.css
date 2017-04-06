@@ -1,0 +1,30 @@
+.jumbotron {
+	background: url('../images/main.jpg') 0% 32%;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: #fff !important;
+}
+
+.navbar {
+	margin-bottom: 0 !important;
+	border-radius: 0 !important;
+}
+
+.navbar-btn {
+	margin-left: 10px;
+}
+
+caption {
+	padding-bottom: 25px !important;
+}
+
+table {
+	margin-bottom: 35px !important;
+}
+
+footer {
+	background: #080808;
+	color: white;
+	padding: 20px 0;
+}
