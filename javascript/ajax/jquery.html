@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery AJAX</title>
+</head>
+<body>
+	<script src="jquery.min.js"></script>
+	<script>
+		$.get('server.php', function(data){
+			// do stuff
+		});
+
+		$.post('server.php', function(data){
+			// do stuff
+		});
+
+
+		$.ajax({
+			method: 'POST',
+			url: 'server.php',
+			data: {
+				prop: 'value'
+			},
+			success: function(data){
+				// do stuff
+			},
+			error: function(){
+				// handle error
+			}
+		});
+
+		// http://api.jquery.com/jQuery.ajax/
+		$.ajax({
+			method: 'DELETE',
+			url: 'server.php',
+			success: function(data){
+				// do stuff
+			},
+			error: function(){
+				// handle error
+			}
+		});
+
+		$.ajax({
+			method: 'PUT',
+			url: 'server.php',
+			success: function(data){
+				// do stuff
+			},
+			error: function(){
+				// handle error
+			}
+		});
+
+
+	</script>
+</body>
+</html>

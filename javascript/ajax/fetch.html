@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch</title>
+</head>
+<body>
+  <script>
+    fetch('server.php', {
+      method: 'POST',
+      body: JSON.stringify({ firstname: 'John', age: 25 })
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      console.log(data.firstname); // John
+      console.log(data.age); // 25
+    });
+
+
+    // new Promise(function(resolve, reject){
+    //  setTimeout(function() {
+    //    resolve('Асинхронный код выполнился и готов!');
+    //  }, 1000);
+    // }).then(function(data) {
+    //  document.write(data);
+    // });
+  </script>
+</body>
+</html>

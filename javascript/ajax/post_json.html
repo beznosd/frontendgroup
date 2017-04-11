@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post JSON</title>
+</head>
+<body>
+  <script>
+    xhr.open('POST', 'server.php');
+    xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+
+    var user = { 
+      firstname: 'John', 
+      lastname: 'Smith' 
+    };
+
+    var json = JSON.stringify(user);
+
+    xhr.send(json);
+  </script>
+</body>
+</html>

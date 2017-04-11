@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get Request</title>
+</head>
+<body>
+  <script>
+    var xhr = new XMLHttpRequest();
+
+    var name = 'Vasy&a';
+    var lastname = 'Pupkin';
+
+    var params = 'name=' + encodeURIComponent(name) + '&lastname=' + encodeURIComponent(lastname);
+
+    xhr.open('GET', 'server.php?' + params, true);
+    xhr.send();
+  </script>
+</body>
+</html>

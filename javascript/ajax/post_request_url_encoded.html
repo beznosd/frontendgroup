@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post Urlencoded</title>
+</head>
+<body>
+  <script>
+    xhr.open('POST', 'server.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+    var user = "firstname=Vasya&lastname=Pupkin";
+    xhr.send(user);
+  </script>
+</body>
+</html>
