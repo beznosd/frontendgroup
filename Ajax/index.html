@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ajax</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="wrapper">
+		<form name="randomuser">
+			<label for="basic-url">
+				Enter the number of users:
+			</label>
+			<div class="input-group">
+  			<span class="input-group-addon" id="basic-addon3">	https://randomuser.me/api/?results=
+  			</span>
+  			<input name="sum" value="" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+  			<span class="input-group-btn">
+        	<button class="btn btn-default" type="button">
+        		Submit
+        	</button>
+      	</span>
+			</div>
+		</form>
+		
+		<div class="loader hidden">
+    	<img src="loader.gif" alt="loading users...">
+  	</div>
+
+	  <table>
+	    <tr>
+	      <th></th>
+	      <th>First</th>
+	      <th>Last</th>
+	      <th>Username</th>
+	      <th>Phone</th>
+	      <th>Location</th>
+	      <th></th>
+	    </tr>
+	  </table>
+		
+
+	</div>
+
+
+	
+<script id="row" type="text/x-handlebars-template">
+    <tr>
+      <td class="photo-col">
+        <img class="photo small-photo" src="{{picture.medium}}" alt="user photo">
+      </td>
+      <td>{{name.first}}</td>
+      <td>{{name.last}}</td>
+      <td>{{login.username}}</td>
+      <td>{{cell}}</td>
+      <td>{{location.state}}</td>
+      
+    </tr>
+    
+  </script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src='script.js'></script>
+</body>
+</html>
