@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<style>
+	div {
+		margin-top: 10px;
+	}
+</style>
+<body>
+	<form name="registration">
+		<input name="username" value="Vasya"></br><br/>
+		<input name="password" value="password"></br><br/>
+		<input name="repeatpass" value="repeatpass"></br><br/>
+		<div>
+			<select name="payment" multiple>
+			    <option value="paypall" selected>Pay Pall</option>
+			    <option value="card">Plastic Card</option>
+			    <option value="americanexpress">American Express</option>
+			    <option value="westernunion" selected>Western Union</option>
+			</select>
+		</div><br/>
+		<button>Submit</button>
+	</form>
+	<script>
+		var form = document.forms.registration;
+		var button = document.getElementsByTagName('button')[0];
+
+		button.onclick = function(event) {
+			event.preventDefault();
+
+			var inputName = form.elements.username;
+			var password = form.elements.password;
+			var repeatpass = form.elements.repeatpass;
+			var payment = form.elements.payment;
+
+			// selectPayment.options[0].text
+			console.log('Name: ' + inputName.value);
+			console.log('Password:' + password.value);
+			console.log('Repeatpass:' + repeatpass.value);
+
+			console.log('Payment methods: ');
+
+			for (var i = 0; i < payment.length; i++) {
+				if ( payment[i].selected ) {
+					console.log('---- ' + payment[i].text);
+				}
+			}
+		}
+	</script>
+</body>
+</html>
