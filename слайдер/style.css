@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+#gallery {
+	overflow: hidden;
+	width: 50%;
+	height: auto;
+	margin: 0 auto;	
+}
+
+
+#gallery img {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+
+#gallery img:first-child {
+	display:block;
+}
+
+.buttons {
+	overflow: hidden;
+}
+
+.button-forward {
+	float:right;
+}
+
+.button-back {
+	float:left;
+}
+
