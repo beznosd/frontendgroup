@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SLIDER</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.slider__container {
+			position: relative;
+			width: 500px;
+			margin: 20px auto;
+			border: 2px solid black;
+			border-radius: 10px;
+		}
+
+		.carousel {
+			width: 500px;
+			overflow: hidden;
+		}
+
+		#pictures {
+			height: 400px;
+			width: 9999px;
+			list-style-type: none;
+			transition: margin-left 250ms;
+			font-size: 0;
+			margin-left: 0;
+		}
+
+		li {
+			display: inline-block;
+		}
+
+		img {
+			height: 400px;
+			width: 500px;
+		}
+
+		.nav {
+			position: absolute;
+			top:35%;
+			display: block;
+			font-size: 50px;
+			cursor: pointer;
+			color: red;
+			padding: 20px 10px;
+		}
+
+		.nav:hover {
+			background: grey;
+			opacity: .5;
+		}
+
+		#prev__slide {
+			left: 5px;
+		}
+
+		#next__slide {
+			right: 5px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="slider__container">
+		<div class="carousel">
+			<ul id="pictures">
+				<li><img src="1.jpg" alt="1"></li>
+				<li><img src="2.jpg" alt="2"></li>
+				<li><img src="3.jpg" alt="3"></li>
+			</ul>
+			
+		</div>
+
+		<a class="nav" id="prev__slide">&#10094</a>
+		<a class="nav" id="next__slide">&#10095</a>
+
+	</div>
+	
+
+	<script>
+		var prev = document.getElementById('prev__slide');
+		var next = document.getElementById('next__slide');
+		var ul = document.getElementById('pictures');
+		var position = 0;
+		var width = 500;
+		var count = 1;
+		
+		next.onclick = function(e) {
+			e.preventDefault();			
+			if (ul.style.marginLeft ==  '-1000px') {
+				position = 500;
+			}
+			position = Math.max(position - width * count)
+			ul.style.marginLeft = position + 'px';
+		};
+
+		prev.onclick = function(e) {
+			e.preventDefault();			
+			if (position === 0) {
+				position = -1500;
+			}
+			position = Math.max(position + width * count)
+			ul.style.marginLeft = position + 'px';
+		};
+
+	</script>
+	
+</body>
+</html>
