@@ -1,3 +1,12 @@
-## Добавлено домашнее задание по получению списка пользователей через fetch 
+## Добавлены крестики нолики - туториал по React
 
-Пример находится в папке **javascript/ajax/fetch-homework/**
+Крестики нолики находятся в папке **projects/react-tutor/**
+
+Ссылка на [tutorial](https://facebook.github.io/react/tutorial/tutorial.html)
+
+Как запустить пример:
+  * открыть папку с примером в консоле
+  * выполнить ***npm install***
+  * выполнить ***webpack***
+  * открыть файл **public/index.html** в браузере
+
