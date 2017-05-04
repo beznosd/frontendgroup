@@ -1,5 +1,3 @@
-## Добавлен макет с эффектами и пример видео на весь экран.
+## Добавлен пример фала сборки финальног проекта
 
-Примеры в папках
-  * **projects/paralax**
-  * **projects/video-background**
+Примеры в папке **final-project-build-file/gulpfile.js**
