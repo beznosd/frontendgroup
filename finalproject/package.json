@@ -1,0 +1,25 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darya",
+  "license": "ISC",
+  "devDependencies": {
+    "browser": "^0.2.6",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
+    "browser": "^0.2.6",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "description": ""
+}
