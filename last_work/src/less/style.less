@@ -1,0 +1,1175 @@
+@color_1: #999;
+@color_2: #ccc;
+@color_3: #333;
+@color_4: #95e1d3;
+@color_5: #2ec06c;
+@color_6: #666;
+@color_7: #fff;
+@color_8: #fce38a;
+@font_family_1: 'Roboto', sans-serif;
+@font_family_2: 'Montserrat', sans-serif;
+@font_family_3: 'Kaushan Script', cursive;
+@background_color_1: #fff;
+@background_color_2: #F75C4C;
+@background_color_3: #f38181;
+@border_color_1: #e7e7e7;
+@border_color_2: #fce38a;
+@border_color_3: #e5e5e5;
+@border_color_4: transparent;
+@border_color_5: #464646;
+html {
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+body {
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    color: @color_1;
+    font-size: 14px;
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    font-family: @font_family_1;
+}
+
+footer {
+    display: block;
+    padding-top: 50px;
+    background: #f8f8f8;
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .mogo-colHeading {
+        margin: 0 0 25px;
+        font-size: 14px;
+    }
+
+    .colInfo {
+        margin-bottom: 30px;
+    }
+
+    .footerLogo {
+        a {
+            color: @color_2;
+            font-size: 40px;
+            font-family: @font_family_2;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 20px;
+            line-height: 100%;
+        }
+    }
+
+    .mogo-followUs {
+        margin: 25px 0;
+
+        .totalFollow {
+            color: @color_3;
+            font-weight: 500;
+            font-family: @font_family_2;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+
+            span {
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        .socialNetwork {
+            .text {
+                font-style: italic;
+                font-weight: 300;
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .mogo-icon {
+                display: inline-block;
+                margin: 0 5px;
+                font-size: 18px;
+                color: @color_4;
+            }
+        }
+    }
+
+    .mogo-subscribeForm {
+        .input-group {
+            @size: 40px;
+
+            input {
+                border-radius: 0;
+                border-color: @border_color_1;
+                box-shadow: none;
+                font-style: italic;
+                font-size: 15px;
+                height: @size;
+                color: @color_2;
+                padding-left: 12px;
+                font-weight: 300;
+            }
+
+            .btn {
+                border-radius: 0;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: @font_family_2;
+                font-size: 14px;
+                background: #95e1d3;
+                border: none;
+                height: @size;
+                @p: 30px;
+                padding-left: @p;
+                padding-right: @p;
+            }
+        }
+    }
+
+    .listArticles {
+        > li {
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .articleThumb {
+            width: 120px;
+            margin-right: 15px;
+        }
+
+        .articleTitle {
+            font-size: 12px;
+            margin: 0 0 5px;
+            line-height: 1.5;
+        }
+
+        .date {
+            font-style: italic;
+            font-size: 13px;
+        }
+    }
+
+    .instagramImages {
+        a {
+            float: left;
+            width: 85px;
+            margin: 1px;
+        }
+    }
+
+    .morePhoto {
+        color: @color_1;
+        font-style: italic;
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .mogo-copyright {
+        text-align: center;
+        border-top: 1px solid #e5e5e5;
+        padding: 20px 0;
+        font-family: @font_family_2;
+        color: @color_3;
+
+        a {
+            color: @background_color_3;
+        }
+    }
+}
+
+header {
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+section {
+    display: block;
+    padding: 110px 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: @color_3;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: @color_6;
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    img {
+        border: none;
+    }
+}
+
+h2 {
+    margin: 5px 0 10px;
+    color: @color_3;
+    text-transform: uppercase;
+    font-family: @font_family_2;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+h3 {
+    margin: 5px 0 10px;
+    color: @color_3;
+    text-transform: uppercase;
+    font-family: @font_family_2;
+    font-size: 22px;
+}
+
+h4 {
+    margin: 5px 0 10px;
+    color: @color_3;
+    text-transform: uppercase;
+    font-family: @font_family_2;
+    font-size: 18px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+[layout="row"] {
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
+.fsr {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.fw {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.verticalStretch {
+    -ms-flex-align: stretch;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.verticalCenter {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mogo-btn {
+    display: inline-block;
+    color: @color_7;
+    text-transform: uppercase;
+    padding: 10px 32px;
+    text-align: center;
+    border: 3px solid #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 100%;
+
+    &:hover {
+        color: @color_7;
+        background-color: @background_color_3;
+    }
+}
+
+.bg-white {
+    background-color: @background_color_1 !important;
+}
+
+.mogo-hoverEffect {
+    text-align: center;
+
+    .item {
+        background: #95e1d3;
+        display: inline-block;
+
+        .overlay {
+            display: block;
+            position: relative;
+            left: 0;
+            top: 0;
+            transition: all 0.3s ease-in-out;
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                transition: all 0.3s ease-in-out;
+                background: rgba(243, 129, 129, 0.9);
+                background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+            }
+        }
+
+        &:hover {
+            .overlay {
+                left: -10px;
+                top: -10px;
+
+                &:before {
+                    opacity: 1;
+                }
+            }
+
+            .content {
+                opacity: 1;
+            }
+        }
+    }
+
+    .content {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        z-index: 1;
+        opacity: 0;
+        text-align: center;
+        color: @color_7;
+        text-transform: uppercase;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: opacity 0.3s ease-in-out;
+    }
+}
+
+#mogo-header {
+    position: relative;
+    font-family: @font_family_2;
+    background: url("../images/bg-header.jpg") no-repeat center center / cover;
+    padding: 40px 0 0;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(243, 129, 129, 0.9);
+        background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    }
+
+    .mogo-sectionHeading {
+        font-size: 150px;
+        color: @color_7;
+        padding-top: 100px;
+
+        .mogo-subHeading {
+            font-size: 72px;
+        }
+
+        &:after {
+            background: #fff;
+        }
+    }
+}
+
+#mogo-headerInner {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    padding-bottom: 100px;
+
+    .mogo-btn {
+        margin: 0 auto;
+        display: inline-block;
+    }
+}
+
+#mogo-navbar {
+    background: none;
+    border: none;
+    border-radius: 0;
+
+    .mogo-navbar-items {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-brand {
+        color: @color_7;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        > li {
+            > a {
+                color: @color_7;
+                font-weight: 400;
+                text-transform: uppercase;
+                border-bottom: 3px solid transparent;
+                padding: 15px 0 5px;
+                margin: 0 26px;
+
+                &:hover {
+                    color: @color_8;
+                    border-color: @border_color_2;
+                    background: none;
+                }
+            }
+        }
+
+        > .active {
+            > a {
+                color: @color_8;
+                border-color: @border_color_2;
+                background: none;
+
+                &:hover {
+                    color: @color_8;
+                    border-color: @border_color_2;
+                    background: none;
+                }
+            }
+        }
+    }
+
+    .mogo-menuItem {
+        float: right;
+    }
+
+    .mogo-iconsGroup {
+        li {
+            a {
+                padding-top: 13px;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        margin-right: 0;
+        border: none;
+
+        &:hover {
+            background: none;
+        }
+
+        &:focus {
+            background: none;
+        }
+
+        .icon-bar {
+            background: #fff;
+        }
+    }
+}
+
+.mogo-sectionHeading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    position: relative;
+    @p: 40px;
+    padding-bottom: @p - 2px;
+    margin-bottom: @p;
+    margin-top: 0;
+    text-align: center;
+    color: @color_3;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 60px;
+        height: 3px;
+        background: @background_color_3;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .mogo-subHeading {
+        display: block;
+        text-transform: none;
+        font-weight: 400;
+        font-family: @font_family_3;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+.mogo-sectionDesc {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 80px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#mogo-story {
+    .content {
+        font-weight: 700;
+        font-size: 18px;
+        font-family: @font_family_2;
+
+        .mogo-icon {
+            display: block;
+            font-size: 30px;
+        }
+    }
+}
+
+#mogo-counting {
+    padding: 0;
+    background: #95e1d3;
+    font-family: @font_family_2;
+    text-align: center;
+    color: @color_7;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    .item {
+        width: 20%;
+        padding: 80px 5px;
+        border-right: 1px solid rgba(255, 255, 255, 0.35);
+
+        &:first-child {
+            border-left: 1px solid rgba(255, 255, 255, 0.35);
+        }
+    }
+
+    .number {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+#mogo-services {
+    img {
+        @s: 42px;
+        width: @s;
+        height: @s;
+        object-fit: contain;
+        display: block;
+        margin-top: 6px;
+        margin-right: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .mogo-icon {
+        font-size: 30px;
+        margin-right: 20px;
+        color: @color_4;
+    }
+
+    .item {
+        &:not(:nth-last-child(-n+3)) {
+            border-bottom: 1px solid #e5e5e5;
+            margin-bottom: 50px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .mogo-serviceTitle {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+#mogo-uniqueDesign {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    background: #e0e0e0 url("../images/unique-design/bg-unique-design.jpg") no-repeat center center / cover;
+
+    .mogo-devices {
+        position: relative;
+        text-align: center;
+
+        .tablet {
+            width: 380px;
+        }
+
+        .mobile {
+            position: absolute;
+            bottom: -60px;
+            left: 50%;
+            margin-left: 140px;
+            width: 170px;
+        }
+    }
+}
+
+#mogo-whatWeDo {
+    padding-bottom: 0;
+
+    .panel {
+        box-shadow: none;
+    }
+
+    .panel-group {
+        margin: 0;
+    }
+
+    .panel-default {
+        border-color: @border_color_3;
+        border-radius: 0;
+
+        > .panel-heading {
+            background: #fff;
+            padding: 0;
+        }
+    }
+
+    .panel-title {
+        font-size: 14px;
+
+        a {
+            display: block;
+            padding: 15px 30px 15px 16px;
+            position: relative;
+            text-decoration: none;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+
+        .mogo-icon {
+            position: absolute;
+            left: 10px;
+            top: 8px;
+            font-size: 37px;
+            color: @color_4;
+            transition: all 0.2s ease;
+        }
+
+        .mogo-icon.arrow {
+            left: auto;
+            right: 17px;
+            color: @color_2;
+        }
+
+        .collapsed {
+            .mogo-icon.arrow {
+                top: 13px;
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .panel-body {
+        font-style: italic;
+        height: 170px;
+        font-weight: 300;
+    }
+
+    .mCSB_scrollTools {
+        .mCSB_dragger {
+            .mCSB_dragger_bar {
+                background-color: @color_4;
+                width: 5px;
+            }
+        }
+
+        .mCSB_draggerRail {
+            width: 5px;
+            background-color: #f5f5f5;
+        }
+    }
+}
+
+.mogo-testimonial {
+    background: #f8f8f8;
+    padding: 90px 0;
+
+    .carousel-control {
+        background: none;
+        width: 80px;
+        opacity: 1;
+
+        .fa {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            @s: 30px;
+            width: @s;
+            height: @s;
+            font-size: @s*1.3;
+            line-height: @s;
+            margin-top: -@s/2;
+            margin-right: -@s/2;
+            text-shadow: none;
+            color: @color_2;
+        }
+    }
+}
+
+.mogo-testimonialSlider {
+    margin: 0 80px;
+
+    .mogo-avatar {
+        width: 210px;
+        margin-right: 35px;
+    }
+
+    .quote {
+        font-size: 24px;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .name {
+        font-family: @font_family_3;
+        font-size: 24px;
+        position: relative;
+        padding-left: 70px;
+        color: @color_3;
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 60px;
+            height: 3px;
+            background: @background_color_3;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    }
+}
+
+#mogo-searchForm {
+    position: fixed;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    z-index: 10;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+
+    .mogo-searchInput {
+        position: relative;
+        top: 50%;
+        height: 100px;
+        box-shadow: none;
+        font-size: 70px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #333;
+        font-weight: 700;
+        padding: 20px 0;
+        color: @color_7;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .mogo-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 60px;
+        cursor: pointer;
+
+        &:hover {
+            color: @color_7;
+        }
+    }
+}
+
+#mogo-scrollToTop {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-indent: -99999em;
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+    background: #E74C3C url("../images/go-to-top.png") center center no-repeat;
+
+    &:hover {
+        text-decoration: none;
+        background-color: @background_color_2;
+    }
+}
+@media (max-width: 1200px) {
+    #mogo-whatWeDo {
+        .panel-body {
+            height: 118px;
+        }
+    }
+
+    footer {
+        .mogo-followUs {
+            margin: 15px 0;
+        }
+
+        .instagramImages {
+            a {
+                width: 70px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .mogo-navbar-items {
+        justify-content: center;
+    }
+
+    .mogo-navbar-logo {
+        text-align: center;
+
+        .navbar-brand {
+            float: none;
+            margin: 0 auto;
+            display: inline-block;
+        }
+    }
+
+    #mogo-header {
+        #mogo-headerInner .mogo-sectionHeading {
+            font-size: 100px;
+
+            span {
+                font-size: 60px;
+            }
+        }
+    }
+
+    section {
+        padding: 70px 0;
+    }
+
+    .mogo-testimonial {
+        padding: 30px 0;
+    }
+
+    .mogo-testimonialSlider {
+        .quote {
+            font-size: 13px;
+        }
+
+        .mogo-avatar {
+            width: 130px;
+        }
+    }
+
+    #mogo-counting {
+        font-size: 10px;
+
+        .item {
+            padding: 35px 5px;
+        }
+
+        .number {
+            font-size: 50px;
+        }
+    }
+
+    #mogo-services {
+        .item {
+            &:not(:nth-last-child(-n+2)) {
+                border-bottom: 1px solid #e5e5e5;
+                margin-bottom: 30px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    #mogo-uniqueDesign {
+        .mogo-devices {
+            .tablet {
+                width: 250px;
+            }
+
+            .mobile {
+                bottom: -38px;
+                margin-left: 88px;
+                width: 110px;
+            }
+        }
+    }
+
+    #mogo-whatWeDo {
+        .panel-group {
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .mogo-hoverEffect {
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+
+    #mogo-header {
+        padding-top: 10px;
+
+        .mogo-sectionHeading {
+            font-size: 60px;
+            padding-top: 60px;
+
+            .mogo-subHeading {
+                font-size: 35px;
+            }
+        }
+    }
+
+    #mogo-uniqueDesign {
+        .mogo-devices {
+            .mobile {
+                margin-left: 65px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    #mogo-navbar {
+        .navbar-nav {
+            margin: 0;
+        }
+
+        .mogo-navbar-items {
+            justify-content: center;
+
+            li {
+                display: inline-block;
+
+                a {
+                    margin: 0 0 0 15px;
+                    padding: 15px 0 5px;
+                }
+            }
+        }
+    }
+
+    #mogo-header {
+        #mogo-headerInner .mogo-sectionHeading {
+            font-size: 50px;
+
+            span {
+                font-size: 30px;
+            }
+        }
+    }
+
+    #mogo-services {
+        .item {
+            &:not(:nth-last-child(-n+1)) {
+                border-bottom: 1px solid #e5e5e5;
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 640px) {
+    section {
+        padding: 60px 0;
+    }
+
+    #mogo-navbar {
+        .mogo-navbar-items {
+            flex-direction: column;
+        }
+    }
+
+    .mogo-sectionHeading {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+
+        .mogo-subHeading {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .mogo-sectionDesc {
+        margin-bottom: 60px;
+    }
+
+    #mogo-header {
+        .mogo-sectionHeading {
+            font-size: 45px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding-top: 30px;
+
+            .mogo-subHeading {
+                font-size: 22px;
+            }
+        }
+    }
+
+    #mogo-counting {
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .verticalStretch {
+            flex-direction: column;
+        }
+
+        .item {
+            padding: 20px 5px;
+            width: 100%;
+            border-left: 0 !important;
+            border-right: 0 !important;
+            border-bottom: 1px solid fade(@color_7, 30%);
+        }
+
+        .number {
+            font-size: 28px;
+        }
+
+        .text {
+            font-size: 9px;
+        }
+    }
+
+    #mogo-uniqueDesign {
+        .mogo-devices {
+            .mobile {
+                margin-left: 65px;
+                margin-left: 50px;
+                width: 90px;
+            }
+        }
+    }
+
+    .mogo-testimonialSlider {
+        margin: 0 40px;
+
+        .quote {
+            font-size: 16px;
+        }
+
+        .name {
+            font-size: 18px;
+        }
+
+        .mogo-avatar {
+            width: 180px;
+            margin-right: 15px;
+        }
+    }
+
+    #mogo-searchForm {
+        .mogo-searchInput {
+            height: 60px;
+            font-size: 35px;
+        }
+
+        .mogo-close {
+            font-size: 40px;
+        }
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .mogo-testimonialSlider {
+        .verticalCenter {
+            flex-direction: column;
+        }
+
+        .quote {
+            text-align: center;
+        }
+
+        .name {
+            display: table;
+            margin: 0 auto;
+            padding-left: 50px;
+
+            &:after {
+                width: 40px;
+            }
+        }
+
+        .mogo-avatar {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+    }
+}
