@@ -1,24 +1,25 @@
 $(document).ready(function(){
 			$('ul.accordion li > p').click(function(){
-				if(!$(this).hasClass('active')){	//если "кликнутый" пункт неактивный:
-					$('ul.accordion li > p').removeClass('active').next('div').slideUp(); //делаем неактивными все пункты и скрываем все блоки
-					$(this).addClass('active');	//активируем "кликнутый" пункт
-					$(this).next('div').slideDown(200);	//раскрываем следующий за ним блок с описанием
-				} else {	//иначе:
-					$(this).removeClass('active').next('div').slideUp();	//скрываем данный пункт
+				if(!$(this).hasClass('active')){	
+					$('ul.accordion li > p').removeClass('active').next('div').slideUp(); 
+					$(this).addClass('active');	
+					$(this).next('div').slideDown(200);	
+				} else {	
+					$(this).removeClass('active').next('div').slideUp();	
 				}
 			});
 		});
 
 /*Slider*/
 var slideIndex = 1;
+var n = 1;
 
 
 function plusSlides(n) {
 	showSlides(slideIndex += n);
 }
 function currentSlide(n) {
-	showSlides(slideIndex = n);
+	showSlides(slideIndex -= n);
 }
 
 function showSlides(n) {
