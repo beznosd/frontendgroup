@@ -1,0 +1,162 @@
+
+
+/*
+Author: Bootstrapthemes
+Author URI: http://www.bootstrapthemes.co
+*/
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .home .main_home h1 {
+        font-size: 7.375rem;
+    }
+
+
+
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    .home .main_home h1 {
+        font-size: 7.375rem;
+    }
+
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+    h4 {
+        font-size: 1.225rem;
+        line-height: 2rem;
+    }
+    .main_counter_area ul li{
+        width:50%;
+    }
+    .team .main_team .main_team_content .single_team .single_team_overlay a i {
+        width: 45px;
+        height: 45px;
+        font-size: 1.575rem;
+        line-height: 45px;
+    }    
+    .single_widget .single_widget_blog .single_widget_content p.monseratregular {
+        font-size: 0.65rem;
+        margin-bottom: 0px;
+        max-width: 100%; 
+        line-height: 1rem;
+    }
+    .single_widget .single_widget_blog .single_widget_content {
+        margin-top: 0px;
+    }
+
+
+
+}
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .home .main_home h1 {
+        font-size: 6rem;
+        line-height: 8rem;
+    }
+
+    .main_counter_area ul li{
+        width:100%;
+    }
+
+    .portfolio .grid_item_overlay {
+        padding-top: 15%;
+    }
+    .copyright_text{
+        text-align: center;
+    }
+    .footer_socail{ 
+        text-align: center;
+    }
+    .footer_subcribs_area .navbar-form {
+        padding: 10px;
+    }
+    .footer_subcribs_area .submit_btn {
+        line-height: 22px;
+    }
+
+.owl-carousel .owl-controls .owl-nav .owl-prev {
+    float: none;
+    margin-top:0;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next {
+    float: none;
+    margin-top:0;
+}
+
+
+
+
+
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+    .home .main_home h1 {
+        font-size: 5.175rem;
+        line-height: 6rem;
+    } 
+    .portfolio .grid_item_overlay {
+        padding-top: 25%;
+    }
+    .portfolio .grid_item_overlay p{
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+    .home .main_home h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    } 
+    .portfolio .grid_item_overlay {
+        padding-top: 25%;
+    }
+    .portfolio .grid_item_overlay p{
+        display: none;
+    }
+
+
+
+
+
+
+}
+
